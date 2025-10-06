@@ -262,7 +262,7 @@
       "title": "Manage your personal details and keep your account secure.",
       "description": "Atualiza a tua informação pessoal, e-mail e password aqui."
     },
-    "greeting": "Bem-vind@, {firstName}!",
+    "greeting": "Bem-vind, {firstName}!",
     "description": "Gere os teus dados pessoais e mantém a tua conta segura."
   },
   "order_card": {
@@ -424,7 +424,7 @@
     "email_confirmation": "A confirmação da encomenda foi enviada para o e-mail que forneceste."
   },
   "sign_in_page": {
-    "title": "Bem-vind@! É a tua primeira vez na nossa loja ou estás de volta?",
+    "title": "Bem-vind! É a tua primeira vez na nossa loja ou estás de volta?",
     "meta": {
       "title": "Inicia sessão ou regista-te",
       "description": "Acede à tua conta ou cria uma nova na {shopName}. Desfruta de uma experiência de compra sem problemas com um inicio de sessão seguro e opções personalizadas."
@@ -433,7 +433,7 @@
   "authentication": {
     "notification": {
       "success": {
-        "login": "Sessão iniciada com sucesso! Bem-vind@!",
+        "login": "Sessão iniciada com sucesso! Bem-vind!",
         "sign_up": "A tua conta foi criada com sucesso!",
         "forgot_password": "Foi enviado um link de redefinição de palavra-passe para o teu e-mail.",
         "reset_password": "A tua palavra-passe foi redefinida com sucesso. Podes agora iniciar sessão com a tua nova palavra-passe.",
