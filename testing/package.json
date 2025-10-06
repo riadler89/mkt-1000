@@ -1,0 +1,20 @@
+{
+  "name": "@scayle/storefront-application-testing",
+  "private": true,
+  "author": "SCAYLE Commerce Engine",
+  "description": "Contains testing related tooling used internally only.",
+  "version": "1.0.0",
+  "packageManager": "pnpm@10.17.0",
+  "engines": {
+    "node": ">= 22.15.0",
+    "pnpm": ">= 10.11.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "playwright": "1.55.0",
+      "playwright-core": "1.55.0",
+      "@playwright/test": "1.55.0",
+      "@playwright/browser-chromium": "1.55.0"
+    }
+  }
+}

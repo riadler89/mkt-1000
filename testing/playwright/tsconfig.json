@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "types": ["node"],
+    "resolveJsonModule": true
+  },
+  "include": [
+    "./tests/**/*.ts",
+    "./fixtures/**/*.ts",
+    "./page-objects/**/*.ts",
+    "./playwright.config.ts",
+    "./support/**/*.ts"
+  ],
+  "exclude": ["node_modules", "playwright-report"]
+}

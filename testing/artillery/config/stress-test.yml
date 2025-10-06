@@ -1,0 +1,69 @@
+# This file defines a multi-phase stress test that pushes the system to its limits.
+config:
+  # The base URL for all HTTP requests. Requests in the scenarios below will be made to this target.
+  target: '{{ $processEnvironment.BASE_URL }}'
+  http:
+    timeout: 30
+  engines:
+    playwright: {
+        timeout: 90000, # 90 seconds for Playwright operations
+        retries: 3, # Retry failed operations,
+        browserOptions: { args: [
+                '--no-sandbox',
+                '--disable-dev-shm-usage',
+                '--disable-gpu',
+                '--disable-web-security',
+                '--disable-features=VizDisplayCompositor',
+                '--disable-background-timer-throttling',
+                '--disable-backgrounding-occluded-windows',
+                '--disable-renderer-backgrounding',
+                '--disable-ipc-flooding-protection',
+                '--memory-pressure-off',
+                '--max_old_space_size=512', # Limit per-browser memory
+                '--disk-cache-size=0', # Disable disk cache to save memory
+              ] },
+      }
+  processor: '../tests/test-flows-playwright.ts'
+
+  # This block defines how the load (number of virtual users) is injected over time.
+  phases:
+    # Phase 1: Long ramp-up to a high load (e.g., 20 minutes).
+    - name: 'Ramp Up to Peak Load'
+      #engine: playwright
+      duration: '{{ $processEnvironment.ARTILLERY_STRESS_DURATION_P1 }}' # Recommendation: 20m
+      arrivalRate: '{{ $processEnvironment.ARTILLERY_STRESS_ARRIVAL_RATE_P1 }}' # Starting with a low, consistent user arrival rate.
+      rampTo: '{{ $processEnvironment.ARTILLERY_STRESS_RAMP_TO_P1 }}' # Gradually increasing to a high rate to stress the system. Recommendation: 50
+
+    # Phase 2: Sustained peak load (e.g., 20 minutes).
+    - name: 'Sustained Peak'
+      duration: '{{ $processEnvironment.ARTILLERY_STRESS_DURATION_P2 }}' # Recommendation: 30m
+      arrivalRate: '{{ $processEnvironment.ARTILLERY_STRESS_ARRIVAL_RATE_P2 }}' # Holding the load at the peak to identify long-term issues. Recommendation: 50
+
+    # Phase 3: Gradual ramp-down (e.g., 20 minutes).
+    - name: 'Ramp Down'
+      duration: '{{ $processEnvironment.ARTILLERY_STRESS_DURATION_P3 }}' # Recommendation: 20m
+      arrivalRate: '{{ $processEnvironment.ARTILLERY_STRESS_ARRIVAL_RATE_P3 }}' # Starting at the peak load.
+      rampTo: '{{ $processEnvironment.ARTILLERY_STRESS_RAMP_TO_P3 }}' # Gradually decreasing to 0 to observe system recovery.
+
+# The scenarios block defines the behavior of each virtual user.
+scenarios:
+  # Scenario 1: Homepage access.
+  # This represents users who are just browsing the landing page.
+  - name: 'Open Homepage'
+    weight: '{{ $processEnvironment.ARTILLERY_STRESS_WEIGHT_S1 }}'
+    engine: playwright
+    testFunction: 'openHomepage'
+
+  # Scenario 2: Add to Basket from PDP.
+  # This represents users who are viewing a specific product page and adding the product to Basket.
+  - name: 'Add item from PDP to Basket'
+    weight: '{{ $processEnvironment.ARTILLERY_STRESS_WEIGHT_S2 }}'
+    engine: playwright
+    testFunction: 'fromPdpToBasket'
+
+  # Scenario 3: Add to Wishlist from PLP.
+  # This represents users who are viewing a specific product listing page and adding the product to Wishlist.
+  - name: 'Add item from PLP to Wishlist'
+    weight: '{{ $processEnvironment.ARTILLERY_STRESS_WEIGHT_S3 }}'
+    engine: playwright
+    testFunction: 'fromPlpToWishlist'

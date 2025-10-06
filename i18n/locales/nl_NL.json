@@ -1,0 +1,602 @@
+{
+  "global": {
+    "sold_out": "Uitverkocht",
+    "sold_out_long": "Momenteel online uitverkocht.",
+    "sign_up": "Registreren",
+    "sign_in": "Inloggen",
+    "sign_out": "Uitloggen",
+    "product_recommendation": "Aanbevolen bijpassende producten",
+    "seconds": "seconde | secondes",
+    "minutes": "minuut | minuten",
+    "hours": "uur | hours",
+    "days": "dag | dagen",
+    "back": "Terug",
+    "continue_shopping": "Verder winkelen",
+    "cancel": "Annuleren",
+    "payment_key": {
+      "default": "Creditcard",
+      "accounting": "Factuur",
+      "paypal": "PayPal",
+      "klarna_paylater": "Klarna Pay Later",
+      "klarna_paynow": "Klarna Pay Now",
+      "klarna_installments": "Klarna Installments"
+    },
+    "carrier_key": {
+      "DEFAULT": "UPS"
+    },
+    "back_to_shop": "Terug naar winkel",
+    "to_shop": "Naar winkel",
+    "close": "Sluiten",
+    "including_vat": "incl. btw.",
+    "excluding_vat": "excl. btw.",
+    "save": "Opslaan",
+    "search": "Zoeken",
+    "quantity": "Hoeveelheid",
+    "scroll_to_top_label": "Scroll naar boven",
+    "ordinal_suffix": "th | st | nd | rd"
+  },
+  "notification": {
+    "confirm": "OK",
+    "view": "Weergeven"
+  },
+  "promotion": {
+    "deal": "Deal",
+    "free_label": "Gratis",
+    "condition": "Voorwaarde"
+  },
+  "promotion_progress_wrapper": {
+    "remaining_minimum_order_value": "Ontgrendel! Besteed {amount} meer om deze promotie te activeren.",
+    "fulfilled_promotion_condition": "Je hebt een speciale aanbieding ontgrendeld! Voeg producten die in aanmerking komen toe aan je winkelmandje om te profiteren van de voordelen.",
+    "partial_savings": "Goed gedaan! Je hebt een deal ontgrendeld en {amount} bespaard. Blijf shoppen om nog meer te ontgrendelen.",
+    "full_savings": "Goed gedaan! Je hebt de volledige deal ontgrendeld en {amount} opgespaard.",
+    "free_gift_unlocked": "Goed gedaan! Je hebt een gratis cadeau vrijgespeeld.",
+    "free_gift": "Gratis cadeau",
+    "combo_deal_unlocked": "Goed gedaan! Je hebt de volledige deal ontgrendeld en {amount} opgeslagen.",
+    "combo_deal": "Ontgrendel je deal! Voeg in aanmerking komende producten toe aan je winkelwagen om van de aanbieding te profiteren."
+  },
+  "promotion_slide_in": {
+    "open_button": {
+      "no_active_promotions_title": "Jouw deals",
+      "active_promotions_title": "Jouw aanbiedingen - {total} actieve deals"
+    },
+    "headline": "Jouw deals",
+    "subline": "Vind afgeprijsde producten door op een promotie te klikken. Ontdek voortdurend veranderende deals op geselecteerde artikelen.",
+    "active_promotions": "Actieve promoties {total}",
+    "no_active_promotions": "Geen actieve promoties",
+    "no_active_subline": "Je hebt momenteel geen actieve promoties. Kom later terug voor nieuwe deals en speciale acties!"
+  },
+  "shop_selector": {
+    "aria_label": "Shop wijzigen, huidige shop: {selectedCountry}, {selectedLanguage}",
+    "flyout_title": "Taal en land",
+    "choose_language": "Selecteer je taal",
+    "choose_country": "Selecteer je land",
+    "close_flyout": "Modaal venster met winkelselectie sluiten"
+  },
+  "validation": {
+    "email": "Voer een geldig e-mailadres in.",
+    "password": "Je {field} moet ten minste één speciaal teken, een hoofdletter, een kleine letter en een cijfer bevatten.",
+    "required": "{field} is vereist.",
+    "same_as": "{field} moet hetzelfde zijn als het {otherField} veld.",
+    "max_length": "{field} moet tenminste {max} tekens lang of minder zijn.",
+    "min_length": "{field} moet ten minste {min} tekens lang zijn.",
+    "date": "{field} moet een geldige datum zijn.",
+    "name": "{field} is niet correct geformatteerd.",
+    "past_date": "{field} kan geen datum hebben die in de toekomst ligt."
+  },
+  "form_fields": {
+    "first_name": "Voornaam",
+    "last_name": "Achternaam",
+    "email": "E-mailadres",
+    "old_password": "Huidig wachtwoord",
+    "new_password": "Nieuw wachtwoord",
+    "password": "Wachtwoord",
+    "gender": "Geslacht",
+    "gender_options": {
+      "male": "Mannelijk",
+      "female": "Vrouwelijk",
+      "diverse": "Divers",
+      "none": "Zeg ik liever niet"
+    },
+    "birth_date": "Verjaardag"
+  },
+  "error": {
+    "unknown_error_title": "Oh - er ging iets mis",
+    "page_not_found_title": "Pagina niet gevonden",
+    "page_not_found_message": "Sorry, de pagina die je zoekt bestaat niet of is verplaatst.",
+    "error_code_label": "Foutcode:",
+    "unknown_error_message": "Je verzoek kan niet worden verwerkt, probeer het later nog eens."
+  },
+  "badge_labels": {
+    "new": "Nieuw binnen",
+    "already_in_basket": "Al in winkelmandje"
+  },
+  "navigation": {
+    "find_a_store": "Een shop zoeken",
+    "wishlist": "Verlanglijstje | Verlanglijstje, {count} item | Verlanglijstje, {count} items",
+    "a11ly": {
+      "side_navigation": "Navigatie aan de zijkant openen"
+    }
+  },
+  "checkout_page": {
+    "title": "Kassa"
+  },
+  "search_page": {
+    "title": "Producten voor \"{term}\"",
+    "meta": {
+      "title": "Producten voor \"{term}\""
+    }
+  },
+  "show_all_results_link": {
+    "open_on_search_page": "Bekijk alle {searchTerm} resultaten"
+  },
+  "product_suggestion_list": {
+    "title": "Producten"
+  },
+  "category_suggestion_list": {
+    "title": "Categorieën"
+  },
+  "navigation_item_suggestion_list": {
+    "title": "Pagina's"
+  },
+  "search_input": {
+    "placeholder": "Zoeken naar product, categorie of merk"
+  },
+  "wishlist_page": {
+    "meta": {
+      "title": "Jouw verlanglijst",
+      "description": "Bewaar je favoriete producten en houd je must-haves bij."
+    },
+    "title": "Verlanglijstje]",
+    "empty_wishlist_title": "Je hebt geen items in je verlanglijstje.",
+    "empty_wishlist_description": "Shop onze nieuwste producten of meld je aan om je opgeslagen verlanglijstje te bekijken."
+  },
+  "wishlist_toggle": {
+    "remove_from_wishlist": "Verwijderen van verlanglijstje",
+    "add_to_wishlist": "Toevoegen aan verlanglijst"
+  },
+  "basket_page": {
+    "title": "Winkelmandje",
+    "a11y": {
+      "title": "Winkelmandje | Winkelmandje, {count} item | Winkelmandje, {count} items"
+    },
+    "empty_basket_title": "Je winkelmandje is leeg.",
+    "empty_basket_description": "Je producten verschijnen zodra je ze toevoegt aan je winkelmandje.",
+    "meta": {
+      "title": "Winkelmandje",
+      "description": "Bekijk de artikelen in je winkelmandje en ga gemakkelijk naar de kassa. Veilig en probleemloos shoppen op {shopName}."
+    }
+  },
+  "basket": {
+    "go_to_checkout": "Ga naar de kassa",
+    "available_products": "Beschikbare producten",
+    "unavailable_products": "Niet-beschikbare producten"
+  },
+  "basket_popover_items": {
+    "no_items_info": "Je hebt geen producten in je mandje."
+  },
+  "basket_popover_actions": {
+    "go_to_basket": "Ga naar winkelmandje"
+  },
+  "basket_summary": {
+    "delivery_fees": "* Bezorgkosten worden bepaald tijdens het afrekenen nadat je een voorkeursbezorgoptie hebt gekozen.",
+    "total": "Totaal",
+    "subtotal": "Subtotaal",
+    "you_pay": "Je betaalt",
+    "discount": "Kortingen",
+    "delivery": "Levering"
+  },
+  "basket_summary_reduction": {
+    "sale": "Sale",
+    "voucher": "Waardebon"
+  },
+  "add_to_basket": {
+    "add_to_basket": "Toevoegen aan winkelmandje",
+    "product_name_fallback": "Product",
+    "notification": {
+      "select_size": "Selecteer maat voor toevoegen aan winkelmandje",
+      "add_to_basket_success": "{productName} is toegevoegd aan je winkelmandje",
+      "add_to_basket_error": "{productName} kon niet worden toegevoegd aan je winkelmandje",
+      "add_to_basket_variant_out_of_stock_error": "Deze maat is momenteel niet op voorraad",
+      "add_to_basket_max_basket_items_error": "Oeps! Je hebt het maximaal aantal toegestane artikelen in je winkelmandje bereikt.",
+      "add_subscription_to_basket_success": "{productName} {interval} abonnement is toegevoegd aan je winkelmandje",
+      "add_with_reduced_quantity_error": "Sorry, er zijn geen artikelen meer beschikbaar in deze maat. Alle beschikbare voorraad is al toegevoegd aan je winkelmandje."
+    }
+  },
+  "basket_card": {
+    "remove_from_basket_confirmation": "Weet je zeker dat je dit artikel wilt verwijderen?",
+    "confirm_removal": "Item verwijderen"
+  },
+  "password_input": {
+    "hide": "Wachtwoord verbergen",
+    "show": "Wachtwoord tonen"
+  },
+  "user_navigation_item": {
+    "greeting": "Hallo {firstName}",
+    "a11y": {
+      "title": "Mijn account"
+    },
+    "menu_items": {
+      "subscriptions": "Jouw abonnementen",
+      "orders": "Je bestellingen",
+      "profile": "Account instellingen"
+    }
+  },
+  "profile_account_information": {
+    "title": "Account informatie",
+    "customer_number": "Klantnummer:",
+    "email": "Geregistreerd e-mailadres:",
+    "disclaimer": "E-mailwijzigingen worden niet ondersteund. Als je hulp nodig hebt, neem dan contact op met support."
+  },
+  "profile_personal_information": {
+    "title": "Persoonlijke informatie",
+    "description": "Werk je persoonlijke gegevens bij om je account up-to-date te houden.",
+    "success_message": "Je gegevens zijn succesvol bijgewerkt.",
+    "error_message": "De informatie kon niet worden opgeslagen. Probeer het opnieuw."
+  },
+  "profile_password_management": {
+    "title": "Wachtwoordbeheer",
+    "description": "Houd je account veilig door je wachtwoord regelmatig bij te werken.",
+    "idp_description": "Je account is beveiligd via een externe aanmeldprovider, dus het is niet nodig om je wachtwoord hier te wijzigen. Ga naar de instellingen van je aanmeldingsprovider om je wachtwoord bij te werken.",
+    "success_message": "Je wachtwoord is succesvol bijgewerkt.",
+    "error": {
+      "400_bad_request": "Je verzoek kon niet worden verwerkt, probeer het opnieuw.",
+      "401_unauthorized": "Je verzoek kon niet worden verwerkt, probeer het opnieuw.",
+      "403_forbidden": "Je wachtwoord kon niet worden bijgewerkt. Controleer je huidige wachtwoord en probeer het opnieuw."
+    }
+  },
+  "account_page": {
+    "title": "Jouw account",
+    "meta": {
+      "title": "Jouw account",
+      "description": "Beheer je profiel, bestellingen en abonnementen op één plek."
+    }
+  },
+  "account_tabs": {
+    "orders": "Bestellingen",
+    "profile": "Profiel",
+    "subscriptions": "Abonnementen"
+  },
+  "profile_page": {
+    "title": "Beheer je account",
+    "meta": {
+      "title": "Account instellingen",
+      "description": "Werk hier je persoonlijke gegevens, e-mailadres en wachtwoord bij."
+    },
+    "greeting": "Welkom, {firstName}!",
+    "description": "Beheer je persoonlijke gegevens en houd je account veilig."
+  },
+  "order_card": {
+    "order_date": "Datum bestelling",
+    "items": "Artikelen",
+    "title": "Bestelling #{id}",
+    "go_to_order": "Bestelling weergeven {orderNumber}"
+  },
+  "orders_page": {
+    "title": "Jouw bestellingen",
+    "meta": {
+      "title": "Jouw bestellingen",
+      "description": "Volg je eerdere en huidige bestellingen met statusupdates."
+    }
+  },
+  "order_list": {
+    "no_orders": {
+      "title": "Je hebt nog geen bestellingen geplaatst.",
+      "description": "Zodra je een aankoop doet, verschijnen hier je bestelgegevens."
+    }
+  },
+  "order_detail_page": {
+    "title": "Bestelling #{id}",
+    "meta": {
+      "title": "Bestelling #{id}",
+      "description": "Details en status van je bestelling bekijken #{id}."
+    }
+  },
+  "order_information": {
+    "order_details": {
+      "title": "Bestelgegevens",
+      "order_date": "Besteldatum",
+      "customer_id": "Klantnummer",
+      "order_number": "Bestelnummer",
+      "estimated_delivery_date": "Verwachte levering",
+      "delivered_by": "Verzonden door",
+      "order_number_value": "Bestelling #{orderNumber}"
+    },
+    "payment_details": {
+      "title": "Betalingsdetails",
+      "payment_method": "Betalingsmethode"
+    },
+    "address_details": {
+      "delivery_and_billing_address": "Afleverings- en factuuradres",
+      "delivery_address": "Afleveringsadres",
+      "billing_address": "Factuuradres"
+    }
+  },
+  "order_detail_payment_summary": {
+    "total": "Totaal",
+    "subtotal": "Subtotaal",
+    "shipping_costs": "Verzending"
+  },
+  "product_detail_page": {
+    "meta": {
+      "description": "Bestel {productName} online bij {shopName}. Ontdek de uitgebreide selectie van andere merkproducten."
+    }
+  },
+  "variant_picker": {
+    "select_size": "Selecteer maat",
+    "option": {
+      "select_option": "Maat selecteren {option}"
+    }
+  },
+  "sibling_selection": {
+    "sibling_error": "Fout: Dit attribuut is niet ingesteld!",
+    "selected": "Geselecteerd",
+    "unselected": "Niet geselecteerd",
+    "a11ly": {
+      "alt_text": "{selected}, {alt}",
+      "sold_out_alt_text": "{selected}, {alt} (Uitverkocht)"
+    }
+  },
+  "product_promotion_selection_modal": {
+    "details": "Details"
+  },
+  "product_details": {
+    "information": {
+      "fit_size": "Pasvorm & maat",
+      "extras": "Extra",
+      "design": "Ontwerp"
+    },
+    "shipping_return_heading": {
+      "title": "Verzenden en retourneren",
+      "general_info": "De verzendkosten voor het verzenden en retourneren van artikelen, evenals de verpakkingskosten, zijn voor rekening van SCAYLE. Bestellingen met meerdere producten kunnen leiden tot deelleveringen.",
+      "dhl_headline": "DHL standaard verzending - 0,00 EUR",
+      "dhl_paragraph": "Direct beschikbare artikelen worden meestal binnen 1-3 werkdagen geleverd door DHL.",
+      "hermes_headline": "Hermes - 0,00 EUR",
+      "hermes_paragraph": "Direct beschikbare artikelen worden gewoonlijk binnen 1-3 werkdagen door Hermes geleverd.",
+      "return_information": "Als het retourelabel ontbreekt bij je levering, kun je te allen tijde een nieuw label aanvragen bij onze klantenservice."
+    }
+  },
+  "price": {
+    "starting_from": "van",
+    "30_day_best_price": "30 dagen beste prijs:"
+  },
+  "product_list_page": {
+    "meta": {
+      "description": "Bestel {category} bij {shopName}. Ontdek een breed scala aan {category}"
+    }
+  },
+  "product_list_no_results": {
+    "title": "Geen resultaten 🫣",
+    "description": "Er zijn helaas geen producten in deze categorie of je filters leveren geen producten op.",
+    "reset_filters": "Filters resetten",
+    "back_to_category": "Terug naar {category}"
+  },
+  "sorting_select": {
+    "top_seller": "Aanbevelingen",
+    "date_newest": "Nieuwste",
+    "price_desc": "Prijs aflopend",
+    "price_asc": "Prijs oplopend",
+    "reduction_desc": "Korting aflopend"
+  },
+  "filter_header": {
+    "title": "Filter categorieën",
+    "close": "Filters sluiten"
+  },
+  "filter_actions": {
+    "show_results_with_count": "Bekijk {count} items",
+    "show_results": "Artikelen weergeven",
+    "reset_all_filter": "Alles resetten"
+  },
+  "filter_slide_in_content": {
+    "sorting": "Sorteren",
+    "only_sale_option": "Toon alleen producten in de sale",
+    "product_image_view": "Bekijken"
+  },
+  "filter_group": {
+    "reset": "Filter resetten"
+  },
+  "filter_color_chip": {
+    "select_color": "Selecteer kleur {color}"
+  },
+  "filter": {
+    "notification": {
+      "all_filters_cleared": "Alle filters zijn gewist!",
+      "filter_updated": "Je filters zijn succesvol toegepast!",
+      "sort_updated": "Je sortering is succesvol toegepast!",
+      "filter_and_sort_updated": "Je sortering en filters zijn succesvol toegepast!"
+    },
+    "show_filter": "Filters tonen",
+    "show_filter_and_sorting": "Filters en sorteren tonen"
+  },
+  "order_success_page": {
+    "title": "Overzicht van je bestelling",
+    "meta": {
+      "title": "Bestelling bevestigd! Hartelijk dank voor je aankoop",
+      "description": "Bedankt voor je bestelling! Je aankoop is bevestigd. Controleer je e-mail voor de bestelgegevens."
+    },
+    "no_order_found": {
+      "title": "De bestelinformatie kon niet worden gevonden.",
+      "description": "Je bestelgegevens konden niet worden opgehaald. De link is mogelijk verlopen of ongeldig. Controleer je e-mail voor de juiste link of neem contact op met support voor assistentie."
+    },
+    "go_to_order_details": "Details bestelling"
+  },
+  "order_success_page_greeting": {
+    "title": "Hartelijk dank voor je aankoop!",
+    "email_confirmation": "De bestelbevestiging is verzonden naar het e-mailadres dat je hebt opgegeven."
+  },
+  "sign_in_page": {
+    "title": "Welkom! Nieuw hier of kom je terug?",
+    "meta": {
+      "title": "Aanmelden of registreren",
+      "description": "Ga naar je account of maak een nieuwe aan op {shopName}. Geniet van een naadloze winkelervaring met veilig inloggen en gepersonaliseerde opties."
+    }
+  },
+  "authentication": {
+    "notification": {
+      "success": {
+        "login": "Inloggen succesvol! Welkom terug!",
+        "sign_up": "Je account is succesvol aangemaakt!",
+        "forgot_password": "Er is een link om je wachtwoord opnieuw in te stellen naar je e-mail gestuurd.",
+        "reset_password": "Je wachtwoord is succesvol gereset. Je kunt nu inloggen met je nieuwe wachtwoord.",
+        "guest_login": "Je account is aangemaakt! Je kunt nu doorgaan met je bestelling."
+      }
+    }
+  },
+  "location_page": {
+    "title": "Zoek een winkel bij jou in de buurt",
+    "subline": "Voer je postcode of plaats in om winkels bij jou in de buurt te zien.",
+    "geolocation": {
+      "error": {
+        "permission_denied": "Gebruiker weigert geolocatie prompt",
+        "unknown": "Kan geolocatie niet bepalen"
+      }
+    }
+  },
+  "store_variant_availability": {
+    "choose_store": "Kies winkel",
+    "change_store": "Winkel wijzigen",
+    "store_availability_subline": "Selecteer een winkel",
+    "store_availability": "Beschikbaarheid winkel"
+  },
+  "store_locator": {
+    "store_information": {
+      "store_closed": "Gesloten",
+      "store_open": "Open",
+      "remaining_open_time": "sluit in {hours}u {minutes}min",
+      "opening_hours": "Openingstijden"
+    },
+    "availability": {
+      "not_available": "Niet beschikbaar",
+      "available": "Beschikbaar",
+      "low_stock": "Lage voorraad"
+    },
+    "search_store_input_placeholder": "Voer stad of postcode in",
+    "detect_location_label": "Mijn locatie vinden"
+  },
+  "store_locator_slide_in": {
+    "headline": "Kies winkel",
+    "select_store": "Winkel selecteren",
+    "no_results": "Geen resultaten"
+  },
+  "subscription_page": {
+    "headline": "Beheer je abonnementen",
+    "meta": {
+      "title": "Jouw abonnementen",
+      "description": "Beheer moeiteloos je actieve en eerdere abonnementen."
+    }
+  },
+  "product_subscription": {
+    "subscribe": "Abonneren & besparen",
+    "separation_text": "Of bespaar nog meer:",
+    "select_size": "Selecteer maat om opties te zien",
+    "not_eligible_for_subscription_message": "De geselecteerde maat komt niet in aanmerking voor een abonnement",
+    "add_to_basket": "Abonneren voor {interval}"
+  },
+  "subscription": {
+    "subscription": "Abonnement",
+    "interval": "Interval",
+    "follow_up_delivery": "Follow-up levering",
+    "day_of_month_selection_caption": "Elke {dayOfMonth} van de maand",
+    "term": "Termijn"
+  },
+  "image_slider": {
+    "a11ly": {
+      "go_to_previous_image": "Vorige afbeelding",
+      "go_to_next_image": "Volgende afbeelding"
+    }
+  },
+  "slider": {
+    "got_to_previous_item": "Vorige",
+    "got_to_next_item": "Volgende"
+  },
+  "product_image": {
+    "alt": "{brand}, {productName}, {colors}",
+    "alt_with_image_index": "{alt}, Afbeelding {index} van {total}"
+  },
+  "country_detection": {
+    "switch_country_prompt": "Het lijkt erop dat je in {country} bent. Welke shop wil je bezoeken?",
+    "switch_to_shop": "Schakel over naar de {country} shop",
+    "stay_in_shop": "Blijf in de {country} shop",
+    "override_codes": {
+      "ZZ": "Internationaal"
+    },
+    "country_with_language": "{country} ({language})"
+  },
+  "footer": {
+    "copyright": "© {currentYear} SCAYLE, Alle rechten voorbehouden"
+  },
+  "pagination": {
+    "a11y": {
+      "go_to_previous_page": "Ga naar de vorige pagina",
+      "go_to_pnext_page": "Ga naar de volgende pagina"
+    }
+  },
+  "quantity_input": {
+    "change_value_to": "Verander de hoeveelheid in {newQuantity}",
+    "current_value": "Hoeveelheid: {currentQuantity}"
+  },
+  "skip_links": {
+    "jump_to_main": "Spring naar de hoofdinhoud",
+    "jump_to_search": "Naar zoeken springen"
+  },
+  "product_attribute": {
+    "size": "Maat",
+    "color": "Kleur"
+  },
+  "order_status": {
+    "open": "Open",
+    "shipped": "Verzonden",
+    "cancelled": "Geannuleerd",
+    "confirmed": "Bevestigd"
+  },
+  "filter_range_slider": {
+    "to": "naar",
+    "price": {
+      "maximum": "Maximale prijs: {price}",
+      "minimum": "Minimumprijs: {price}"
+    },
+    "percentage": {
+      "maximum": "Maximale korting: {reduction}",
+      "minimum": "Minimale korting: {reduction}"
+    }
+  },
+  "recentlyViewedProductsSlider": {
+    "title": "Recent bekeken"
+  },
+  "basket_promotion_codes": {
+    "headline": "Promotiecodes",
+    "add_code": "Toevoegen",
+    "remove_code": "Verwijderen {code}",
+    "input_placeholder": "Code",
+    "input_label": "Promotiecode",
+    "add_success": "Je code is goed toegevoegd.",
+    "add_error": "Helaas is het toevoegen van de promotiecode mislukt.",
+    "remove_error": "Helaas is het verwijderen van de promotiecode mislukt."
+  },
+  "expressCheckout": {
+    "error": {
+      "deviceNotSupported": "Het opgegeven apparaat is niet toegestaan.",
+      "paymentMethodNotAvailable": "De gekozen betaalmethode is niet beschikbaar.",
+      "pspSessionCreationFailed": "Het is niet gelukt om een sessie met de betalingsdienstaanbieder te maken.",
+      "failedToFetchSession": "Kan geen goede sessie vinden bij de betaalprovider.",
+      "basketNotFound": "Winkelwagen niet gevonden.",
+      "basketInvalid": "De winkelwagen is niet goed.",
+      "failedDependency": "Kan de transactie niet bijwerken.",
+      "unknownError": "Er is iets misgegaan. Probeer het nog eens.",
+      "errorShippingAddressValidationFailed": "Het verzendadres kan niet worden gevalideerd.",
+      "outOfConstraints": "Het totaalbedrag van je winkelmandje is hoger dan de toegestane bestelwaarde."
+    }
+  },
+  "preferred_primary_image_type_toggle": {
+    "default": "Standaard"
+  },
+  "campaign": {
+    "deal": "Speciaal"
+  },
+  "buy_x_get_y_products": {
+    "headline": "Mis deze deal niet!",
+    "description": "Kies nu je artikel en geniet van je beloning.",
+    "a11y": {
+      "add_item": "Voeg je promotieproduct toe {name}"
+    }
+  }
+}

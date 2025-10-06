@@ -1,0 +1,20 @@
+---
+description: Create a Storybook story for a Vue component, with strict conventions for documentation and organization.
+globs: 
+  - components/**/*.vue
+  - modules/**/*.vue
+  - components/**/*.stories.ts
+  - modules/**/*.stories.ts
+alwaysApply: false
+---
+- Create a new Storybook story for the given component using the `Meta` type to define metadata.
+- Add a concise JSDoc comment directly above the `meta` definition. This should describe the story's purpose, usage, and any notable details.  
+  **Do not** use `parameters.docs` or place JSDoc comments above story exports.
+- Document each prop with JSDoc directly inside the `defineProps` block in the component (e.g., following the `SFButton` style).  
+  **Do not** add JSDoc comments above the `args` in the story file.
+- Organize the story under a clear Storybook category (e.g., `"Account"`).
+- Only add story variants if they show meaningful visual or functional differences based on real-world use cases.  
+  For example:
+  - A `PromotionCard` with types like `"discount"`, `"bonus"`, or `"expired"` that display different layouts or visuals.
+  - A `TabNavigation` with selected/unselected states showing different behaviors.
+- **Do not** add variants that cannot be visually or functionally distinguished in Storybook (e.g., prop toggles that do not result in UI changes).

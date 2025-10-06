@@ -1,0 +1,66 @@
+---
+description: Vue 3 component guidelines with Composition API best practices
+globs: ["**/*.vue", "**/components/**/*"]
+alwaysApply: true
+---
+
+# Vue Component Guidelines
+
+## Component Naming and Structure
+- Use PascalCase for component names and file names (e.g., `ProductCard.vue`, `Navigation.vue`)
+- All component names must be multi-word to prevent conflicts with HTML elements
+- Use descriptive, semantic names that clearly indicate the component's purpose
+- Place components in appropriate directories based on their functionality (e.g., `components/product/`, `components/layout/`)
+
+## Component Composition
+- Use Composition API with `<script setup>` syntax for all new components
+- Prefer `<script setup>` over Options API unless legacy compatibility is required
+- Use TypeScript for all component scripts with proper type definitions
+- Define component props with explicit types and validation where appropriate
+- Use `defineProps()` and `defineEmits()` for prop and event definitions
+
+## Template Best Practices
+- Always use `v-for` with a unique `key` attribute for list rendering
+- Use `v-if`/`v-else-if`/`v-else` for conditional rendering instead of `v-show` when possible
+- Prefer template refs over direct DOM manipulation
+- Use `v-model` for two-way data binding with form inputs
+- Implement proper event handling with descriptive event names
+
+## Styling Guidelines
+- **Avoid `<style>` blocks whenever possible** - use Tailwind CSS utility classes instead
+- Use scoped styles with `<style scoped>` only when absolutely necessary for complex custom styling
+- Prefer Tailwind CSS utility classes over custom CSS in 99% of cases
+- Use CSS custom properties for theme values that need to be dynamic
+- Follow the existing design system defined in `tailwind.config.ts`
+- Use semantic class names when creating custom CSS (only when Tailwind utilities are insufficient)
+
+## Component Lifecycle and Reactivity
+- **Favor `ref()` over `reactive()`** for most reactive data
+- Use `ref()` for primitive values and simple objects
+- Use `reactive()` only for complex objects that need deep reactivity
+- Prefer `computed()` for derived state over methods when possible
+- Use `watch()` and `watchEffect()` for side effects
+- Implement proper cleanup in `onUnmounted()` when needed
+- Use `nextTick()` when DOM updates are required
+
+## Code Organization
+- Avoid barrel imports (`index.ts` files that re-export everything)
+- Import components and utilities directly from their source files
+- Use explicit imports to improve tree-shaking and bundle optimization
+- Group related functionality together in appropriate directories
+- Maintain consistent file naming across the project
+- Document complex logic and business rules
+
+## TypeScript Usage
+- Use explicit type definitions for all functions and variables
+- Leverage TypeScript's strict mode for better type safety
+- Use interfaces for object shapes and type definitions
+- Implement proper error handling with typed error objects
+- Use generics for reusable type-safe functions
+
+## Performance Optimization
+- Use `v-memo` for expensive list rendering when appropriate
+- Implement proper lazy loading for images and components
+- Use `defineAsyncComponent` for code splitting
+- Optimize bundle size by avoiding unnecessary imports
+- Monitor and optimize Core Web Vitals metrics

@@ -1,0 +1,9 @@
+packages:
+  - ./artillery
+  - ./playwright
+
+onlyBuiltDependencies:
+  - esbuild
+
+ignoredBuiltDependencies:
+  - unrs-resolver

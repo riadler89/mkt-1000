@@ -1,0 +1,93 @@
+---
+description: Nuxt 3 performance optimization and Core Web Vitals
+globs: ["**/*.vue", "**/*.ts", "**/nuxt.config.*"]
+alwaysApply: false
+---
+
+# Performance Guidelines
+
+## Nuxt 3 Performance Fundamentals
+
+### Memory Management
+- **Use `onUnmounted()`** for proper cleanup of event listeners, timers, and subscriptions
+- **Avoid memory leaks** in long-running composables and components
+- **Use `shallowRef()`** for large objects that don't need deep reactivity
+- **Implement proper error boundaries** for component errors and recovery
+- **Use `markRaw()`** for objects that don't need to be reactive
+- **Monitor memory usage** in development with Vue DevTools
+
+### Composable Performance
+- **Use `computed()`** for derived state instead of methods to leverage caching
+- **Implement proper `watch` dependencies** to avoid unnecessary re-computations
+- **Use `ref()` over `reactive()`** for better performance with primitive values
+- **Use `whenever()`** for conditional side effects instead of complex `watch` statements
+- **Implement proper cleanup** in composables that manage external resources
+- **Use `toValue()`** for proper reactive value handling
+
+### Payload Optimization
+- **Minimize Nuxt payload size** by using `useLazyAsyncData` for non-critical data
+- **Use `key` parameter** in `useAsyncData` to enable proper caching and deduplication
+- **Implement `transform` functions** to reduce payload size by selecting only needed data
+- **Use `pick` option** in `useAsyncData` to select specific fields from API responses
+- **Avoid serializing large objects** in the Nuxt payload by using client-side fetching when appropriate
+- **Leverage `useState`** for shared state instead of duplicating data in multiple composables
+- **For `useRpc` calls**: `useRpc` wraps `useAsyncData` - all above rules apply via options parameter
+
+
+### Server-Side Rendering (SSR) Optimization
+- **Use `definePageMeta` with `key`** for better page-level caching and hydration
+- **Implement proper `validate` functions** in `definePageMeta` to prevent unnecessary renders
+- **Use `defineAsyncComponent`** for components that don't need to be server-rendered
+- **Leverage `useHead`** for dynamic meta tags instead of static ones
+- **Use `useRequestURL()`** for server-side URL handling and avoid client-side URL parsing
+- **Implement proper error boundaries** with `createError` for better error handling
+- **Use `useSeoMeta`** for optimized SEO meta tag generation
+
+### Data Fetching Performance
+- **Prefer `useFetch` over `useAsyncData`** for simple data fetching scenarios
+- **Use `lazy: true`** for non-blocking data fetching that doesn't affect initial render
+- **Implement proper `dedupe` strategies** (`defer`, `cancel`) to avoid duplicate requests
+- **Use `keyedComposables`** in `nuxt.config.ts` for composables with specific argument lengths
+- **Use `server: false`** for client-only data fetching when SSR is not needed
+- **Use `transform` functions** to reduce payload size by selecting only needed data
+- **Use `pick` option** to select specific fields from API responses
+- **For `useRpc` calls**: `useRpc` wraps `useAsyncData` - all above rules apply via options parameter
+- **For RPC calls**: Prefer `useRpc` for reactive data fetching, use `useRpcCall` for on-demand invocation (e.g., on events)
+
+### Bundle and Code Splitting
+- **Use `defineAsyncComponent`** for route-level and component-level code splitting
+- **Implement lazy loading** for heavy components and modules
+- **Use dynamic imports** for conditional features and third-party libraries
+- **Leverage Nuxt's automatic code splitting** for pages and layouts
+- **Use `v-memo`** for expensive list rendering in product listings and search results
+- **Implement proper preloading** for critical components and routes
+
+### Image and Asset Optimization
+- **Use `useImage()` composable** for optimized image handling with automatic format selection
+- **Implement proper lazy loading** with intersection observers for images below the fold
+- **Use `preload` and `prefetch`** for critical resources and next-page assets
+- **Implement proper image sizing** to avoid layout shifts and improve CLS
+
+### Core Web Vitals Optimization
+- **Optimize Largest Contentful Paint (LCP)** by prioritizing above-the-fold content
+- **Ensure First Input Delay (FID)** is under 100ms by minimizing JavaScript execution
+- **Optimize Cumulative Layout Shift (CLS)** by using proper image dimensions and avoiding dynamic content insertion
+- **Use `useLazyAsyncData`** for below-the-fold content to improve LCP
+- **For `useRpc` calls**: Use `lazy: true` for below-the-fold content to improve LCP
+- **Implement proper loading states** to improve perceived performance
+- **Use `useHead`** for critical resource hints and preloading
+
+## Monitoring and Testing
+- Use performance monitoring tools (Lighthouse, WebPageTest, Chrome DevTools)
+- Implement performance testing in CI/CD pipeline with performance budgets
+- Monitor Core Web Vitals in production with real user monitoring
+- Test performance across different devices, browsers, and network conditions
+- Use Nuxt DevTools for bundle analysis and performance insights
+- Set up performance alerts for regression detection
+
+## Import Guidelines
+- **Always prefer importing from `@scayle/storefront-nuxt`** over `@scayle/storefront-core` or `@scayle/storefront-api`
+- Use `@scayle/storefront-nuxt` as the primary import source for all storefront functionality
+- Avoid direct imports from internal dependencies when possible
+- Import performance utilities directly from their source files
+- Use explicit imports to improve tree-shaking and bundle optimization

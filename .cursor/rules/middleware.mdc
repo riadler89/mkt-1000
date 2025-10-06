@@ -1,0 +1,62 @@
+---
+description: Nuxt 3 middleware implementation guidelines
+globs: ["**/middleware/**/*", "**/server/**/*"]
+alwaysApply: false
+---
+
+# Middleware Guidelines
+
+## Middleware Naming and Structure
+- Use descriptive names with appropriate suffixes (e.g., `authGuard.global.ts`, `shopSelector.ts`)
+- Place middleware in the `app/middleware/` directory
+- Use `.global.ts` suffix for global middleware that runs on every route
+- Use `.ts` suffix for route-specific middleware
+- Follow the existing patterns established in the codebase
+
+## Middleware Implementation
+- Export a default function that receives the context object
+- Use TypeScript for all middleware implementations
+- Implement proper error handling with meaningful error messages
+- Use the provided context object for route, store, and other utilities
+- Consider performance implications of middleware execution
+
+## Middleware Best Practices
+- Keep middleware focused on a single responsibility
+- Implement proper logging for debugging and monitoring
+- Use appropriate HTTP status codes for redirects and errors
+- Consider caching strategies for expensive operations
+- Test middleware thoroughly with appropriate test cases
+
+## Global Middleware
+- Use `.global.ts` suffix for middleware that should run on every route
+- Implement proper error handling for global middleware
+- Consider performance impact on all routes
+- Use appropriate logging levels for global middleware
+- Ensure global middleware doesn't break critical functionality
+
+## Route-Specific Middleware
+- Use descriptive names that indicate the route or functionality
+- Implement proper error handling for specific use cases
+- Consider the specific requirements of the target routes
+- Use appropriate HTTP status codes for redirects and errors
+- Test middleware with the specific routes it protects
+
+## Import Guidelines
+- **Always prefer importing from `@scayle/storefront-nuxt`** over `@scayle/storefront-core` or `@scayle/storefront-api`
+- Use `@scayle/storefront-nuxt` as the primary import source for all storefront functionality
+- Avoid direct imports from internal dependencies when possible
+- Import middleware utilities directly from their source files
+- Use explicit imports to improve tree-shaking and bundle optimization
+
+## Error Handling
+- Implement proper error handling with typed error objects
+- Use try-catch blocks for async operations
+- Provide meaningful error messages for debugging
+- Consider using error boundaries for middleware errors
+- Log errors appropriately for monitoring and debugging
+
+## Performance Considerations
+- Consider the performance impact of middleware on route navigation
+- Implement proper caching strategies for expensive operations
+- Use appropriate logging levels to avoid performance issues
+- Monitor middleware execution time and optimize when necessary

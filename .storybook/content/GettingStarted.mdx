@@ -1,0 +1,199 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+import PageComponent from '~~/modules/cms/providers/scayle/components/PageComponent.vue'
+
+<Meta title='Getting Started' />
+
+<style jsx>
+  {`
+    .sbdocs-content {
+      max-width: 2000px;
+    }
+
+    li::marker {
+      color: #86efac;
+    }
+
+    .headline {
+      font-size: 72px;
+      font-weight: 700;
+    }
+
+    .link {
+      color: #000;
+      font-size: 20px;
+    }
+
+    .link svg {
+      color: #000;
+    }
+  `}
+</style>
+
+<div className="flex flex-col gap-8">
+  <section className="mb-10 overflow-hidden text-clip border-b border-gray-200">
+    <div className="mx-auto flex w-full flex-col lg:flex-row">
+      <div
+        className="shrink-0 py-4 text-secondary lg:w-1/2 lg:py-10 lg:pr-12"
+      >
+        <p className="mb-4 font-bold">Progressive Technology</p>
+        <h1 className="flex items-center gap-2 headline">Storefront</h1>
+        <div className="mb-10 max-w-[46.875rem] leading-8 lg:pr-12">
+          Storefront is an all-in-one starter kit for building high-performance
+          e-commerce shops for the SCAYLE Commerce Engine. It makes it quick and
+          easy to build a best-in-class shop frontend. The latest version of
+          Storefront is based on Nuxt and Vue 3.
+        </div>
+        <div className="flex gap-4">
+          <a
+            className="font-bold flex items-center gap-2 link"
+            href="https://scayle.dev/en/storefront"
+            target="_blank"
+          >
+            SCAYLE Resource Center
+            <svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.77344 1.37521L9.89823 5.5L5.77344 9.62479" stroke="#000" s strokeWidth="1.6" strokeLinecap="square"></path></svg>
+          </a>
+          <a
+            className="font-bold flex items-center gap-2 link"
+            href="https://scayle.dev/en/storefront-guide/developer-guide/getting-started/what-is-storefront"
+            target="_blank"
+          >
+            Storefront Application
+            <svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.77344 1.37521L9.89823 5.5L5.77344 9.62479" stroke="#000" strokeWidth="1.6" strokeLinecap="square"></path></svg>
+          </a>
+        </div>
+      </div>
+      <div className="self-end">
+        <img
+          className="lg:-ml-12 lg:w-[87rem] lg:max-w-none"
+          src="hero.avif"
+          alt="Storefront Boilerplate"
+        />
+      </div>
+    </div>
+  </section>
+  <div className="flex flex-col gap-2">
+    <h2 className="flex items-center gap-2 font-bold"><img src="logo.svg" alt="Scayle" /> Storefront Component Library</h2>
+    <p>Welcome to the Storefront Storybook Component Library — your central source for exploring, documenting, and developing the UI components that power our storefront applications. This library provides a structured, interactive environment where developers, designers, and stakeholders can view, test, and collaborate on components in isolation from the main application.</p>
+  </div>
+
+{' '}
+
+<div className='flex flex-col gap-2'>
+  <h2 className='font-bold'>What is Storybook?</h2>
+  <p>
+    Storybook is a development tool that allows you to build, test, and showcase
+    individual UI components in isolation from your main application. It
+    provides a dedicated environment where you can develop and view components
+    in different states, making it easier to create, document, and visually test
+    user interface elements. Storybook supports many frameworks, including
+    React, Vue, and Angular.
+  </p>
+</div>
+
+{' '}
+
+<div className='flex flex-col gap-4'>
+  <div className='bg-gray-200 px-8 py-4 rounded-lg'>
+    <h3>🚀 Get Started</h3>
+    <p>Learn how to create and use your component library in a Nuxt project.</p>
+    <a
+      className='font-bold'
+      href='https://storybook.js.org/docs/get-started/whats-a-story#create-a-new-story'
+      target='_blank'
+    >
+      Create a new story
+    </a>
+  </div>
+  <div className='bg-gray-200 px-8 py-4 rounded-lg'>
+    <h3>🧩 Components</h3>
+    <p>Browse all components and see usage examples and props.</p>
+  </div>
+  <div className='bg-gray-200 px-8 py-4 rounded-lg'>
+    <h3>🎨 Theming</h3>
+    <p>Customize the look and feel with Tailwind or your design tokens.</p>
+  </div>
+</div>
+
+{' '}
+
+<div className='flex flex-col gap-4'>
+  <h2 className='font-bold'>Storybook addons</h2>
+  <div className='flex gap-4'>
+    <div className='border border-gray-200 px-8 py-4 rounded-lg'>
+      <h3>Auto-docs</h3>
+      <p>Automatically generate documentation for your components.</p>
+      <a
+        className='font-bold'
+        href='https://storybook.js.org/docs/writing-docs/autodocs'
+        target='_blank'
+      >
+        Learn more
+      </a>
+    </div>
+    <div className='border border-gray-200 px-8 py-4 rounded-lg'>
+      <h3>Accessibility</h3>
+      <p>Check your components for accessibility issues.</p>
+      <a
+        className='font-bold'
+        href='https://storybook.js.org/docs/writing-tests/accessibility-testing#accessibility-checks-with-a11y-addon'
+        target='_blank'
+      >
+        Learn more
+      </a>
+    </div>
+    <div className='border border-gray-200 px-8 py-4 rounded-lg'>
+      <h3>Interactions</h3>
+      <p>Test your components with interactions.</p>
+      <a
+        className='font-bold'
+        href='https://storybook.js.org/docs/writing-tests/interaction-testing'
+        target='_blank'
+      >
+        Learn more
+      </a>
+    </div>
+    <div className='border border-gray-200 px-8 py-4 rounded-lg'>
+      <h3>Actions</h3>
+      <p>Add actions to your components.</p>
+      <a
+        className='font-bold'
+        href='https://storybook.js.org/docs/essentials/actions'
+        target='_blank'
+      >
+        Learn more
+      </a>
+    </div>
+  </div>
+</div>
+
+  <div className="flex flex-col gap-4">
+    <h2 className="font-bold">Storybook Resources & Tips</h2>
+    <div className="flex gap-8">
+      <div>
+        <h3>Official Documentation</h3>
+        <ul>
+          <li><a className="font-bold" href="https://storybook.js.org/docs" target="_blank">Storybook Documentation</a></li>
+          <li><a className="font-bold" href="https://storybook.js.org/docs/vue/get-started/introduction" target="_blank">Getting Started Guide</a></li>
+          <li><a className="font-bold" href="https://storybook.js.org/docs/vue/writing-stories/introduction" target="_blank">Writing Stories</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Nuxt Integration</h3>
+        <ul>
+          <li><a className="font-bold" href="https://storybook.nuxtjs.org/" target="_blank">Storybook Nuxt Module</a></li>
+          <li><a className="font-bold" href="https://storybook.nuxtjs.org/getting-started/installation" target="_blank">Installation Guide</a></li>
+          <li><a className="font-bold" href="https://storybook.nuxtjs.org/recipes/auto-docs" target="_blank">Auto Documentation</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Best Practices</h3>
+        <ul>
+          <li>Use controls for interactive props</li>
+          <li>Write clear component descriptions</li>
+          <li>Include usage examples</li>
+          <li>Document component variants</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

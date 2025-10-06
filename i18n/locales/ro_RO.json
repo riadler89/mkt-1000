@@ -1,0 +1,602 @@
+{
+  "global": {
+    "sold_out": "Stoc epuizat",
+    "sold_out_long": "Stoc epuizat online în prezent.",
+    "sign_up": "Înregistrare",
+    "sign_in": "Logare",
+    "sign_out": "Delogare",
+    "product_recommendation": "Combinații recomandate",
+    "seconds": "secundă | secunde",
+    "minutes": "minut | minute",
+    "hours": "oră | ore",
+    "days": "zi | zile",
+    "back": "Înapoi",
+    "continue_shopping": "Continuă cumpărăturile",
+    "cancel": "Anulare",
+    "payment_key": {
+      "default": "Card bancar",
+      "accounting": "Plată prin factură",
+      "paypal": "PayPal",
+      "klarna_paylater": "Klarna Pay Later",
+      "klarna_paynow": "Klarna Pay Now",
+      "klarna_installments": "Klarna Installments"
+    },
+    "carrier_key": {
+      "DEFAULT": "UPS"
+    },
+    "back_to_shop": "Înapoi la magazin",
+    "to_shop": "Către magazin",
+    "close": "Închide",
+    "including_vat": "incl. TVA",
+    "excluding_vat": "fără TVA",
+    "save": "Salvează",
+    "search": "Caută",
+    "quantity": "Cantitate",
+    "scroll_to_top_label": "Derulați în partea de sus",
+    "ordinal_suffix": "th | st | nd | rd"
+  },
+  "notification": {
+    "confirm": "OK",
+    "view": "Vizualizează"
+  },
+  "promotion": {
+    "deal": "Ofertă",
+    "free_label": "Gratis",
+    "condition": "Condiție"
+  },
+  "promotion_progress_wrapper": {
+    "remaining_minimum_order_value": "Deblochează oferta! Cheltuie {amount} în plus, pentru a activa această ofertă.",
+    "fulfilled_promotion_condition": "Ai deblocat o ofertă specială! Adaugă în coș produsele eligibile, pentru a te bucura de beneficii.",
+    "partial_savings": "Bună treabă! Ai deblocat o ofertă și ai economisit {amount}. Continuă să faci cumpărături pentru a debloca și mai multe.",
+    "full_savings": "Bravo! Ai deblocat oferta completă și ai economisit {amount}.",
+    "free_gift_unlocked": "Bravo! Ai deblocat un cadou gratuit.",
+    "free_gift": "Cadou gratuit",
+    "combo_deal_unlocked": "Bravo! Ai deblocat oferta completă și ai salvat {amount}.",
+    "combo_deal": "Deblocați oferta! Adăugați produsele eligibile în coșul de cumpărături pentru a beneficia de ofertă."
+  },
+  "promotion_slide_in": {
+    "open_button": {
+      "no_active_promotions_title": "Ofertele tale",
+      "active_promotions_title": "Ofertele tale - {total} promoții active"
+    },
+    "headline": "Ofertele tale",
+    "subline": "Găsește produse reduse dând clic pe orice promoție. Descoperă oferte în continuă schimbare la articolele selecționate.",
+    "active_promotions": "Promoții active: {total}",
+    "no_active_promotions": "Nicio promoție activă",
+    "no_active_subline": "Nu ai nicio promoție activă în prezent. Revino mai târziu pentru promoții noi și oferte speciale!"
+  },
+  "shop_selector": {
+    "aria_label": "Schimbă magazinul, magazinul actual: {selectedCountry}, {selectedLanguage}",
+    "flyout_title": "Limba și țara",
+    "choose_language": "Selectează limba",
+    "choose_country": "Selectează țara",
+    "close_flyout": "Închide fereastra modală de selecție a magazinului"
+  },
+  "validation": {
+    "email": "Te rugăm să adaugi o adresă validă de e-mail.",
+    "password": "{field} trebuie să includă cel puțin un caracter special, o majusculă, o minusculă și o cifră.",
+    "required": "Câmpul {field} este obligatoriu.",
+    "same_as": "Câmpul {field} trebuie să fie identic cu {otherField}.",
+    "max_length": "Câmpul {field} trebuie să conțină {max} caractere.",
+    "min_length": "Câmpul {field} trebuie să aibă cel puțin {min} caractere.",
+    "date": "Câmpul {field} trebuie să conțină o dată validă.",
+    "name": "Câmpul {field} nu are un format corect.",
+    "past_date": "Câmpul {field} nu poate conține o dată din viitor."
+  },
+  "form_fields": {
+    "first_name": "Prenume",
+    "last_name": "Nume de familie",
+    "email": "Adresa de e-mail",
+    "old_password": "Parolă actuală",
+    "new_password": "Parolă nouă",
+    "password": "Parolă",
+    "gender": "Gen",
+    "gender_options": {
+      "male": "Masculin",
+      "female": "Feminin",
+      "diverse": "Divers",
+      "none": "Prefer să nu spun"
+    },
+    "birth_date": "Data nașterii"
+  },
+  "error": {
+    "unknown_error_title": "Oh - ceva nu a mers bine",
+    "page_not_found_title": "Pagina nu a fost găsită",
+    "page_not_found_message": "Ne pare rău, pagina pe care o căutați nu există sau a fost mutată.",
+    "error_code_label": "Cod eroare:",
+    "unknown_error_message": "Solicitarea dvs. nu a putut fi procesată, vă rugăm să încercați din nou mai târziu."
+  },
+  "badge_labels": {
+    "new": "Noutăți",
+    "already_in_basket": "Deja în coș"
+  },
+  "navigation": {
+    "find_a_store": "Găsește un magazin",
+    "wishlist": "Listă de dorințe | Listă de dorințe, {count} articol | Listă de dorințe, {count} articole",
+    "a11ly": {
+      "side_navigation": "Deschide meniul lateral"
+    }
+  },
+  "checkout_page": {
+    "title": "Checkout"
+  },
+  "search_page": {
+    "title": "Produse pentru „{term}”",
+    "meta": {
+      "title": "Produse pentru „{term}”"
+    }
+  },
+  "show_all_results_link": {
+    "open_on_search_page": "Vezi toate rezultatele pentru „{searchTerm}”"
+  },
+  "product_suggestion_list": {
+    "title": "Produse"
+  },
+  "category_suggestion_list": {
+    "title": "Categorii"
+  },
+  "navigation_item_suggestion_list": {
+    "title": "Pagini"
+  },
+  "search_input": {
+    "placeholder": "Caută după produs, categorie sau brand"
+  },
+  "wishlist_page": {
+    "meta": {
+      "title": "Lista ta de dorințe",
+      "description": "Salvează-ți produsele preferate și nu uita de piesele tale must-have."
+    },
+    "title": "Lista de dorințe",
+    "empty_wishlist_title": "Nu ai niciun articol în lista de dorințe.",
+    "empty_wishlist_description": "Cumpără cele mai noi produse sau loghează-te pentru a vedea ce ai salvat în lista de dorințe."
+  },
+  "wishlist_toggle": {
+    "remove_from_wishlist": "Șterge din lista de dorințe",
+    "add_to_wishlist": "Adaugă în lista de dorințe"
+  },
+  "basket_page": {
+    "title": "Coș",
+    "a11y": {
+      "title": "Coș | Coș, {count} articol | Coș, {count} articole"
+    },
+    "empty_basket_title": "Coșul tău de cumpărături este gol.",
+    "empty_basket_description": "Produsele tale vor apărea imediat ce le adăugi în coș.",
+    "meta": {
+      "title": "Coș",
+      "description": "Vezi articolele din coș și continuă simplu la finalizarea plății. Cumpărături sigure și fără probleme la {shopName}."
+    }
+  },
+  "basket": {
+    "go_to_checkout": "Către finalizarea comenzii",
+    "available_products": "Produse disponibile",
+    "unavailable_products": "Produse indisponibile"
+  },
+  "basket_popover_items": {
+    "no_items_info": "Nu ai niciun produs în coș."
+  },
+  "basket_popover_actions": {
+    "go_to_basket": "Către coș"
+  },
+  "basket_summary": {
+    "delivery_fees": "*Costurile de livrare vor fi stabilite în procesul de finalizare a comenzii, după ce vei alege modalitatea de livrare.",
+    "total": "Total",
+    "subtotal": "Subtotal",
+    "you_pay": "Plătești",
+    "discount": "Reduceri",
+    "delivery": "Livrare"
+  },
+  "basket_summary_reduction": {
+    "sale": "Sale",
+    "voucher": "Voucher"
+  },
+  "add_to_basket": {
+    "add_to_basket": "Adaugă în coș",
+    "product_name_fallback": "Produs",
+    "notification": {
+      "select_size": "Te rugăm să alegi mărimea înainte de a adăuga produsul în coș",
+      "add_to_basket_success": "{productName} a fost adăugat în coș",
+      "add_to_basket_error": "{productName} nu a putut fi adăugat în coș",
+      "add_to_basket_variant_out_of_stock_error": "Această mărime nu este pe stoc momentan",
+      "add_to_basket_max_basket_items_error": "Ups! Ai atins numărul maxim de articole permise în coș.",
+      "add_subscription_to_basket_success": "{productName} {interval} abonamentul a fost adăugat în coș",
+      "add_with_reduced_quantity_error": "Ne pare rău, nu mai există articole disponibile în această mărime. Toate stocurile disponibile au fost adăugate deja în coș."
+    }
+  },
+  "basket_card": {
+    "remove_from_basket_confirmation": "Sigur vrei să ștergi acest articol?",
+    "confirm_removal": "Șterge articolul"
+  },
+  "password_input": {
+    "hide": "Ascunde parola",
+    "show": "Afișează parola"
+  },
+  "user_navigation_item": {
+    "greeting": "Bună, {firstName}!",
+    "a11y": {
+      "title": "Contul meu"
+    },
+    "menu_items": {
+      "subscriptions": "Abonamentele tale",
+      "orders": "Comenzile tale",
+      "profile": "Setări cont"
+    }
+  },
+  "profile_account_information": {
+    "title": "Informații despre cont",
+    "customer_number": "Numărul de client:",
+    "email": "E-mail înregistrat:",
+    "disclaimer": "E-mailul nu poate fi modificat. Dacă ai nevoie de asistență, te rugăm să contactați serviciul clienți."
+  },
+  "profile_personal_information": {
+    "title": "Informații personale",
+    "description": "Actualizează-ți datele personale pentru a-ți menține contul la zi.",
+    "success_message": "Datele tale au fost actualizate cu succes.",
+    "error_message": "Informațiile nu au putut fi salvate. Te rugăm să încerci din nou."
+  },
+  "profile_password_management": {
+    "title": "Gestionarea parolelor",
+    "description": "Păstrează-ți contul în siguranță prin actualizarea periodică a parolei.",
+    "idp_description": "Contul tău este securizat prin intermediul unui furnizor extern de autentificare, astfel încât nu este necesar să modifici parola aici. Pentru a-ți actualiza parola, te rugăm să accesezi setările furnizorului tău de autentificare.",
+    "success_message": "Parola ta a fost actualizată cu succes.",
+    "error": {
+      "400_bad_request": "Cererea ta nu a putut fi procesată, te rugăm să încerci din nou.",
+      "401_unauthorized": "Cererea ta nu a putut fi procesată, te rugăm să încerci din nou.",
+      "403_forbidden": "Parola ta nu a putut fi actualizată. Te rugăm să verifici parola actuală și să încerci din nou."
+    }
+  },
+  "account_page": {
+    "title": "Contul tău",
+    "meta": {
+      "title": "Contul tău",
+      "description": "Gestionează-ți profilul, comenzile și abonamentele într-un singur loc."
+    }
+  },
+  "account_tabs": {
+    "orders": "Comenzi",
+    "profile": "Profil",
+    "subscriptions": "Abonamente"
+  },
+  "profile_page": {
+    "title": "Gestionează-ți contul",
+    "meta": {
+      "title": "Setări cont",
+      "description": "Actualizează-ți aici informațiile personale, e-mailul și parola."
+    },
+    "greeting": "Bine ai venit, {firstName}!",
+    "description": "Gestionează-ți datele personale și păstrează-ți contul în siguranță."
+  },
+  "order_card": {
+    "order_date": "Data comenzii",
+    "items": "Articole",
+    "title": "Comanda nr. {id}",
+    "go_to_order": "Vezi comanda {orderNumber}"
+  },
+  "orders_page": {
+    "title": "Comenzile tale",
+    "meta": {
+      "title": "Comenzile tale",
+      "description": "Urmărește comenzile anterioare și actuale cu actualizări ale statusurilor."
+    }
+  },
+  "order_list": {
+    "no_orders": {
+      "title": "Încă nu ai plasat nicio comandă.",
+      "description": "După ce vei cumpără ceva, detaliile comenzii vor apărea aici."
+    }
+  },
+  "order_detail_page": {
+    "title": "Comanda nr. {id}",
+    "meta": {
+      "title": "Comanda nr. {id}",
+      "description": "Vezi detaliile și statusului comenzii nr. {id}."
+    }
+  },
+  "order_information": {
+    "order_details": {
+      "title": "Detalii comandă",
+      "order_date": "Data comenzii",
+      "customer_id": "Numărul de client",
+      "order_number": "Numărul comenzii",
+      "estimated_delivery_date": "Livrare estimată",
+      "delivered_by": "Livrat de",
+      "order_number_value": "Comanda nr. {orderNumber}"
+    },
+    "payment_details": {
+      "title": "Detalii de plată",
+      "payment_method": "Metoda de plată"
+    },
+    "address_details": {
+      "delivery_and_billing_address": "Adresa de livrare și de facturare",
+      "delivery_address": "Adresa de livrare",
+      "billing_address": "Adresa de facturare"
+    }
+  },
+  "order_detail_payment_summary": {
+    "total": "Total",
+    "subtotal": "Subtotal",
+    "shipping_costs": "Livrare"
+  },
+  "product_detail_page": {
+    "meta": {
+      "description": "Cumpără {productName} online pe {shopName}. Descoperă selecția variată cu alte produse de brand."
+    }
+  },
+  "variant_picker": {
+    "select_size": "Alege mărimea",
+    "option": {
+      "select_option": "Alege mărimea {option}"
+    }
+  },
+  "sibling_selection": {
+    "sibling_error": "Eroare: Acest atribut nu este setat!",
+    "selected": "Selectat",
+    "unselected": "Neselectat",
+    "a11ly": {
+      "alt_text": "{selected}, {alt}",
+      "sold_out_alt_text": "{selected}, {alt} (Stoc epuizat)"
+    }
+  },
+  "product_promotion_selection_modal": {
+    "details": "Detalii"
+  },
+  "product_details": {
+    "information": {
+      "fit_size": "Potrivire și mărime",
+      "extras": "Extra",
+      "design": "Design"
+    },
+    "shipping_return_heading": {
+      "title": "Livrare și retur",
+      "general_info": "Cheltuielile poștale pentru expedierea și returnarea articolelor, precum și costurile de ambalare, vor fi acoperite de SCAYLE. Comenzile cu mai multe produse pot duce la livrări parțiale.",
+      "dhl_headline": "DHL Standard Shipping - 0,00 lei",
+      "dhl_paragraph": "Articolele disponibile imediat sunt livrate de obicei de DHL, în termen de 1-3 zile lucrătoare.",
+      "hermes_headline": "Hermes - 0,00 lei",
+      "hermes_paragraph": "Articolele disponibile imediat sunt livrate  de obicei de Hermes, în termen de 1-3 zile lucrătoare.",
+      "return_information": "Dacă eticheta de retur lipsește din livrare, poți solicita una nouă de la serviciul nostru pentru clienți."
+    }
+  },
+  "price": {
+    "starting_from": "de la",
+    "30_day_best_price": "Cel mai bun preț în 30 de zile:"
+  },
+  "product_list_page": {
+    "meta": {
+      "description": "Cumpără {category} pe {shopName}. Descoperă o gamă largă de {category}"
+    }
+  },
+  "product_list_no_results": {
+    "title": "Niciun rezultat 🫣",
+    "description": "Din păcate, nu există produse în această categorie sau filtrele tale nu conduc la produse.",
+    "reset_filters": "Resetează filtrele",
+    "back_to_category": "Înapoi la {category}"
+  },
+  "sorting_select": {
+    "top_seller": "Recomandări",
+    "date_newest": "Cel mai nou",
+    "price_desc": "Preț descrescător",
+    "price_asc": "Preț crescător",
+    "reduction_desc": "Reducere descrescătoare"
+  },
+  "filter_header": {
+    "title": "Categorii de filtre",
+    "close": "Închide filtrele"
+  },
+  "filter_actions": {
+    "show_results_with_count": "Vezi {count} articole",
+    "show_results": "Vezi articolele",
+    "reset_all_filter": "Resetează tot"
+  },
+  "filter_slide_in_content": {
+    "sorting": "Sortare",
+    "only_sale_option": "Afișează numai produsele la reduceri",
+    "product_image_view": "Vizualizare"
+  },
+  "filter_group": {
+    "reset": "Resetează filtrul"
+  },
+  "filter_color_chip": {
+    "select_color": "Selectează culoarea {color}"
+  },
+  "filter": {
+    "notification": {
+      "all_filters_cleared": "Toate filtrele sunt șterse!",
+      "filter_updated": "Filtrele tale au fost aplicate cu succes!",
+      "sort_updated": "Sortarea ta a fost aplicată cu succes!",
+      "filter_and_sort_updated": "Sortarea și filtrele tale au fost aplicate cu succes!"
+    },
+    "show_filter": "Afișează filtrele",
+    "show_filter_and_sorting": "Afișează filtrele și sortarea"
+  },
+  "order_success_page": {
+    "title": "Prezentare generală a comenzii",
+    "meta": {
+      "title": "Comandă confirmată! Îți mulțumim pentru achiziție",
+      "description": "Îți mulțumim pentru comandă! Achiziția ta a fost confirmată. Verifică e-mailul pentru a vedea detaliile comenzii."
+    },
+    "no_order_found": {
+      "title": "Informațiile despre comandă nu au putut fi găsite.",
+      "description": "Detaliile comenzii nu au putut fi accesate. Este posibil ca linkul să fi expirat sau să fie invalid. Te rugăm să verifici e-mailul pentru linkul corect sau să contactezi serviciul clienți."
+    },
+    "go_to_order_details": "Detalii comandă"
+  },
+  "order_success_page_greeting": {
+    "title": "Îți mulțumim pentru achiziție!",
+    "email_confirmation": "Confirmarea comenzii a fost trimisă la adresa de e-mail furnizată."
+  },
+  "sign_in_page": {
+    "title": "Bine ai venit! Este prima dată când ne vizitezi sau doar revii?",
+    "meta": {
+      "title": "Logare sau înregistrare",
+      "description": "Accesează contul sau creează unul nou pe {shopName}. Bucură-te de o experiență de cumpărături fără întreruperi cu autentificare sigură și opțiuni personalizate."
+    }
+  },
+  "authentication": {
+    "notification": {
+      "success": {
+        "login": "Autentificare reușită! Bine ai revenit!",
+        "sign_up": "Contul tău a fost creat cu succes!",
+        "forgot_password": "Ți-am trimis pe e-mail un link de resetare a parolei.",
+        "reset_password": "Parola ta a fost resetată cu succes. De acum te poți loga folosind noua parolă.",
+        "guest_login": "Contul tău a fost creat! Poți continua cu procesul de comandă."
+      }
+    }
+  },
+  "location_page": {
+    "title": "Găsește un magazin în apropiere",
+    "subline": "Te rugăm să introduci codul poștal sau orașul pentru a vedea magazinele din apropiere",
+    "geolocation": {
+      "error": {
+        "permission_denied": "Utilizatorul a refuzat solicitarea de geolocalizare",
+        "unknown": "Determinarea locației nu este posibilă"
+      }
+    }
+  },
+  "store_variant_availability": {
+    "choose_store": "Alege magazinul",
+    "change_store": "Schimbă magazinul",
+    "store_availability_subline": "Te rugăm să selectezi un magazin",
+    "store_availability": "Disponibilitate în magazin"
+  },
+  "store_locator": {
+    "store_information": {
+      "store_closed": "Închis",
+      "store_open": "Deschis",
+      "remaining_open_time": "se închide în {hours}h {minutes}min",
+      "opening_hours": "Ore de lucru"
+    },
+    "availability": {
+      "not_available": "Nu este disponibil",
+      "available": "Disponibil",
+      "low_stock": "Stoc redus"
+    },
+    "search_store_input_placeholder": "Introdu orașul sau codul poștal",
+    "detect_location_label": "Detectează locația mea"
+  },
+  "store_locator_slide_in": {
+    "headline": "Alege magazinul",
+    "select_store": "Selectează magazinul",
+    "no_results": "Niciun rezultat"
+  },
+  "subscription_page": {
+    "headline": "Gestionează-ți abonamentele",
+    "meta": {
+      "title": "Abonamentele tale",
+      "description": "Gestionează-ți ușor abonamentele active și anterioare."
+    }
+  },
+  "product_subscription": {
+    "subscribe": "Abonează-te și economisește",
+    "separation_text": "Sau economisește și mai mult:",
+    "select_size": "Selectează dimensiunea pentru a vedea opțiunile",
+    "not_eligible_for_subscription_message": "Mărimea selectată nu este eligibilă pentru un abonament",
+    "add_to_basket": "Abonează-te timp de {interval}"
+  },
+  "subscription": {
+    "subscription": "Abonament",
+    "interval": "Interval",
+    "follow_up_delivery": "Livrare ulterioară",
+    "day_of_month_selection_caption": "În fiecare {dayOfMonth} a lunii",
+    "term": "Termen"
+  },
+  "image_slider": {
+    "a11ly": {
+      "go_to_previous_image": "Imaginea anterioară",
+      "go_to_next_image": "Următoarea imagine"
+    }
+  },
+  "slider": {
+    "got_to_previous_item": "Anterior",
+    "got_to_next_item": "Următorul"
+  },
+  "product_image": {
+    "alt": "{brand}, {productName}, {colors}",
+    "alt_with_image_index": "{alt}, Imaginea {index} din {total}"
+  },
+  "country_detection": {
+    "switch_country_prompt": "Se pare că te afli în {country}. Ce magazin dorești să vizitezi?",
+    "switch_to_shop": "Către magazinul din {country}",
+    "stay_in_shop": "Rămâi în magazinul din {country}",
+    "override_codes": {
+      "ZZ": "Internațional"
+    },
+    "country_with_language": "{country} ({language})"
+  },
+  "footer": {
+    "copyright": "© {currentYear} SCAYLE, Toate drepturile rezervate"
+  },
+  "pagination": {
+    "a11y": {
+      "go_to_previous_page": "Mergi la pagina anterioară",
+      "go_to_pnext_page": "Mergi la pagina următoare"
+    }
+  },
+  "quantity_input": {
+    "change_value_to": "Schimbă cantitatea în {newQuantity}",
+    "current_value": "Cantitate: {currentQuantity}"
+  },
+  "skip_links": {
+    "jump_to_main": "Salt la conținutul principal",
+    "jump_to_search": "Salt la căutare"
+  },
+  "product_attribute": {
+    "size": "Mărime",
+    "color": "Culoare"
+  },
+  "order_status": {
+    "open": "Deschis",
+    "shipped": "Expediat",
+    "cancelled": "Anulat",
+    "confirmed": "Confirmat"
+  },
+  "filter_range_slider": {
+    "to": "la",
+    "price": {
+      "maximum": "Preț maxim: {price}",
+      "minimum": "Preț minim: {price}"
+    },
+    "percentage": {
+      "maximum": "Reducere maximă: {reduction}",
+      "minimum": "Reducere minimă: {reduction}"
+    }
+  },
+  "recentlyViewedProductsSlider": {
+    "title": "Vizualizate recent"
+  },
+  "basket_promotion_codes": {
+    "headline": "Coduri promoționale",
+    "add_code": "Adăugați",
+    "remove_code": "Eliminare {code}",
+    "input_placeholder": "Cod",
+    "input_label": "Cod promoțional",
+    "add_success": "Codul dvs. a fost aplicat cu succes.",
+    "add_error": "Din păcate, adăugarea codului promoțional a eșuat.",
+    "remove_error": "Din păcate, eliminarea codului promoțional nu a reușit."
+  },
+  "expressCheckout": {
+    "error": {
+      "deviceNotSupported": "Dispozitivul indicat nu este permis.",
+      "paymentMethodNotAvailable": "Metoda de plată selectată nu este disponibilă.",
+      "pspSessionCreationFailed": "Nu s-a putut crea sesiunea furnizorului de servicii de plată.",
+      "failedToFetchSession": "Nu se poate prelua o sesiune validă de la furnizorul de servicii de plată.",
+      "basketNotFound": "Coșul nu a fost găsit.",
+      "basketInvalid": "Coșul este invalid.",
+      "failedDependency": "Nu s-a putut actualiza tranzacția.",
+      "unknownError": "A apărut o eroare. Vă rugăm să încercați din nou.",
+      "errorShippingAddressValidationFailed": "Validarea adresei de livrare a eșuat.",
+      "outOfConstraints": "Totalul coșului depășește valoarea maximă permisă pentru comandă."
+    }
+  },
+  "preferred_primary_image_type_toggle": {
+    "default": "Implicit"
+  },
+  "campaign": {
+    "deal": "Special"
+  },
+  "buy_x_get_y_products": {
+    "headline": "Nu ratați oferta!",
+    "description": "Selectați articolul dorit și bucurați-vă de recompensă.",
+    "a11y": {
+      "add_item": "Adăugați produsul dvs. promoțional {name}"
+    }
+  }
+}

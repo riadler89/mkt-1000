@@ -1,0 +1,602 @@
+{
+  "global": {
+    "sold_out": "Välja müüdud",
+    "sold_out_long": "Hetkel veebist otsas.",
+    "sign_up": "Registreeri",
+    "sign_in": "Logi sisse",
+    "sign_out": "Logi välja",
+    "product_recommendation": "Soovitatavad paarid",
+    "seconds": "sekund | sekundid",
+    "minutes": "minut | minutid",
+    "hours": "tund | tunnid",
+    "days": "päev | päevad",
+    "back": "Tagasi",
+    "continue_shopping": "Jätka ostlemist",
+    "cancel": "Tühista",
+    "payment_key": {
+      "default": "Krediitkaart",
+      "accounting": "Arve maksmine",
+      "paypal": "PayPal",
+      "klarna_paylater": "Klarna Pay Later",
+      "klarna_paynow": "Klarna Pay Now",
+      "klarna_installments": "Klarna Installments"
+    },
+    "carrier_key": {
+      "DEFAULT": "UPS"
+    },
+    "back_to_shop": "Tagasi poodi",
+    "to_shop": "Poodi",
+    "close": "Sulge",
+    "including_vat": "sh. VAT.",
+    "excluding_vat": "ilma käibemaksuta.",
+    "save": "Salvesta",
+    "search": "Otsing",
+    "quantity": "Kogus",
+    "scroll_to_top_label": "Scroll to top",
+    "ordinal_suffix": "th | st | nd | rd"
+  },
+  "notification": {
+    "confirm": "OK",
+    "view": "Vaata"
+  },
+  "promotion": {
+    "deal": "Eripakkumine",
+    "free_label": "Tasuta",
+    "condition": "Tingimus"
+  },
+  "promotion_progress_wrapper": {
+    "remaining_minimum_order_value": "Ava oma eripakkumine! Selle kampaania aktiveerimiseks kulutage veel {amount}.",
+    "fulfilled_promotion_condition": "Olete avanud eripakkumise! Lisage sobilikud tooted ostukorvi, et kasutada pakkumist.",
+    "partial_savings": "Hea töö! Oled avanud soodushinnaga toote ja säästnud {amount}. Jätka ostlemist, et avada veelgi rohkem soodushinnaga tooteid.",
+    "full_savings": "Suurepärane töö! Oled avanud kogu pakkumise ja säästnud {amount}.",
+    "free_gift_unlocked": "Suurepärane töö! Oled avanud tasuta kingituse.",
+    "free_gift": "Tasuta kingitus",
+    "combo_deal_unlocked": "Suurepärane töö! Oled avanud kogu pakkumise ja säästnud {amount}.",
+    "combo_deal": "Ava oma pakkumine! Lisa sobivad tooted ostukorvi, et pakkumist kasutada."
+  },
+  "promotion_slide_in": {
+    "open_button": {
+      "no_active_promotions_title": "Sinu eripakkumised",
+      "active_promotions_title": "Sinu eripakkumised - {total} Aktiivsed kampaaniad"
+    },
+    "headline": "Sinu eripakkumised",
+    "subline": "Leidke soodushinnaga tooteid, klõpsates mis tahes kampaaniale. Avastage pidevalt muutuvaid pakkumisi valitud kaupadele.",
+    "active_promotions": "Aktiivsed kampaaniad {total}",
+    "no_active_promotions": "Aktiivseid sooduspakkumisi pole",
+    "no_active_subline": "Teil ei ole praegu ühtegi aktiivset kampaaniat. Uute pakkumiste ja eripakkumiste jaoks vaadake hiljem tagasi!"
+  },
+  "shop_selector": {
+    "aria_label": "Muuda poodi, praegune pood: {selectedCountry}, {selectedLanguage}",
+    "flyout_title": "Keel ja riik",
+    "choose_language": "Valige oma keel",
+    "choose_country": "Valige oma riik",
+    "close_flyout": "Sulge poe valiku modaal"
+  },
+  "validation": {
+    "email": "Palun sisestage kehtiv e-posti aadress.",
+    "password": "Teie {field} peab sisaldama vähemalt ühte erimärki, suurtähte, väiketähte ja numbrit.",
+    "required": "{field} on nõutav.",
+    "same_as": "{field} peab olema sama kui {otherField} väli.",
+    "max_length": "{field} peab olema {max} või väiksem.",
+    "min_length": "{field} peab olema vähemalt {min} tähemärki.",
+    "date": "{field} peab olema kehtiv kuupäev.",
+    "name": "{field} ei ole õigesti vormistatud.",
+    "past_date": "{field} ei saa olla kuupäev, mis on tulevikus."
+  },
+  "form_fields": {
+    "first_name": "Eesnimi",
+    "last_name": "Perekonnanimi",
+    "email": "E-posti aadress",
+    "old_password": "Praegune parool",
+    "new_password": "Uus parool",
+    "password": "Parool",
+    "gender": "Sugu",
+    "gender_options": {
+      "male": "Mees",
+      "female": "Naine",
+      "diverse": "Mitmekesine",
+      "none": "Eelistab mitte öelda"
+    },
+    "birth_date": "Sünnipäev"
+  },
+  "error": {
+    "unknown_error_title": "Oh - midagi läks valesti",
+    "page_not_found_title": "Lehekülge ei leitud",
+    "page_not_found_message": "Vabandame, otsitud lehekülge ei ole või see on teisaldatud.",
+    "error_code_label": "Veakood:",
+    "unknown_error_message": "Teie taotlust ei saanud töödelda, palun proovige hiljem uuesti."
+  },
+  "badge_labels": {
+    "new": "Uus",
+    "already_in_basket": "Juba korvis"
+  },
+  "navigation": {
+    "find_a_store": "Leia pood",
+    "wishlist": "Soovinimekiri | Soovinimekiri, {count} ese | Soovinimekiri, {count} eset",
+    "a11ly": {
+      "side_navigation": "Avatud külgmine navigatsioon"
+    }
+  },
+  "checkout_page": {
+    "title": "Mine maksma"
+  },
+  "search_page": {
+    "title": "Tooted \"{term}\"",
+    "meta": {
+      "title": "Tooted \"{term}\""
+    }
+  },
+  "show_all_results_link": {
+    "open_on_search_page": "Vaata kõiki tulemusi {searchTerm}"
+  },
+  "product_suggestion_list": {
+    "title": "Tooted"
+  },
+  "category_suggestion_list": {
+    "title": "Kategooriad"
+  },
+  "navigation_item_suggestion_list": {
+    "title": "Leheküljed"
+  },
+  "search_input": {
+    "placeholder": "Toote, kategooria või kaubamärgi otsing"
+  },
+  "wishlist_page": {
+    "meta": {
+      "title": "Sinu soovinimekiri",
+      "description": "Salvestage oma lemmiktooted ja jälgige oma must-haves."
+    },
+    "title": "Soovinimekiri",
+    "empty_wishlist_title": "Teie soovide nimekirjas ei ole ühtegi toodet.",
+    "empty_wishlist_description": "Osta meie uusimaid tooteid või logi sisse, et näha oma salvestatud soovinimekirja."
+  },
+  "wishlist_toggle": {
+    "remove_from_wishlist": "Eemalda soovinimekirjast",
+    "add_to_wishlist": "Lisa soovinimekirja"
+  },
+  "basket_page": {
+    "title": "Ostukorv",
+    "a11y": {
+      "title": "Korv | Korv, {count} toode | Korv, {count} tooted"
+    },
+    "empty_basket_title": "Teie ostukorv on tühi.",
+    "empty_basket_description": "Teie tooted ilmuvad kohe, kui lisate need ostukorvi.",
+    "meta": {
+      "title": "Ostukorv",
+      "description": "Vaadake oma ostukorvis olevad tooted üle ja minge hõlpsasti kassasse. Turvaline ja probleemivaba ostlemine aadressil {shopName}."
+    }
+  },
+  "basket": {
+    "go_to_checkout": "Mine kassasse",
+    "available_products": "Saadaval olevad tooted",
+    "unavailable_products": "Saavutamata tooted"
+  },
+  "basket_popover_items": {
+    "no_items_info": "Teie ostukorvis ei ole ühtegi toodet."
+  },
+  "basket_popover_actions": {
+    "go_to_basket": "Mine ostukorvi"
+  },
+  "basket_summary": {
+    "delivery_fees": "* Tarnekulud määratakse kindlaks kassas pärast seda, kui olete valinud eelistatud tarnevõimaluse.",
+    "total": "Kokku",
+    "subtotal": "Vahesumma",
+    "you_pay": "Sina maksad",
+    "discount": "Allahindlused",
+    "delivery": "Tarne"
+  },
+  "basket_summary_reduction": {
+    "sale": "Sooduspakkumised",
+    "voucher": "Kupong"
+  },
+  "add_to_basket": {
+    "add_to_basket": "Lisa ostukorvi",
+    "product_name_fallback": "Toode",
+    "notification": {
+      "select_size": "Palun valige suurus enne ostukorvi lisamist",
+      "add_to_basket_success": "{productName} on lisatud ostukorvi",
+      "add_to_basket_error": "{productName} ei saanud ostukorvi lisada",
+      "add_to_basket_variant_out_of_stock_error": "See suurus on praegu otsas",
+      "add_to_basket_max_basket_items_error": "Ups! Olete saavutanud ostukorvi lubatud maksimaalse esemete arvu.",
+      "add_subscription_to_basket_success": "{productName} {interval} tellimus on lisatud ostukorvi",
+      "add_with_reduced_quantity_error": "Vabandame, selles suuruses pole enam tooteid saadaval. Kõik olemasolevad varud on juba teie ostukorvi lisatud."
+    }
+  },
+  "basket_card": {
+    "remove_from_basket_confirmation": "Kas olete kindel, et soovite seda toodet eemaldada?",
+    "confirm_removal": "Eemalda toode"
+  },
+  "password_input": {
+    "hide": "Peida parool",
+    "show": "Näita parooli"
+  },
+  "user_navigation_item": {
+    "greeting": "Tere {firstName}",
+    "a11y": {
+      "title": "Minu konto"
+    },
+    "menu_items": {
+      "subscriptions": "Minu tellimused",
+      "orders": "Minu tellimused",
+      "profile": "Konto seaded"
+    }
+  },
+  "profile_account_information": {
+    "title": "Konto andmed",
+    "customer_number": "Kliendi number:",
+    "email": "Registreeritud e-posti aadress:",
+    "disclaimer": "E-posti muutmine ei ole toetatud. Kui vajate abi, võtke palun ühendust klienditoega."
+  },
+  "profile_personal_information": {
+    "title": "Isikuandmed",
+    "description": "Uuendage oma isikuandmeid, et hoida oma kontot ajakohasena.",
+    "success_message": "Teie andmed on edukalt uuendatud.",
+    "error_message": "Teavet ei saanud salvestada. Palun proovige uuesti."
+  },
+  "profile_password_management": {
+    "title": "Paroolihaldus",
+    "description": "Hoidke oma konto turvaline, uuendades regulaarselt oma parooli.",
+    "idp_description": "Teie konto on kaitstud välise sisselogimisteenuse kaudu, seega ei ole parooli muutmine siin vajalik. Parooli muutmiseks külastage oma sisselogimisteenuse seadistusi.",
+    "success_message": "Teie parool on edukalt muudetud.",
+    "error": {
+      "400_bad_request": "Teie päringut ei õnnestunud töödelda, palun proovige uuesti.",
+      "401_unauthorized": "Teie taotlust ei õnnestunud töödelda, palun proovige uuesti.",
+      "403_forbidden": "Teie salasõna ei saanud uuendada. Palun kontrollige oma praegust parooli ja proovige uuesti."
+    }
+  },
+  "account_page": {
+    "title": "Minu konto",
+    "meta": {
+      "title": "Minu konto",
+      "description": "Haldage oma profiili, tellimusi ja tellimusi ühes kohas."
+    }
+  },
+  "account_tabs": {
+    "orders": "Ostud",
+    "profile": "Profiil",
+    "subscriptions": "Tellimused"
+  },
+  "profile_page": {
+    "title": "Oma konto haldamine",
+    "meta": {
+      "title": "Konto seaded",
+      "description": "Uuendage oma isikuandmeid, e-posti aadressi ja salasõna siin."
+    },
+    "greeting": "Tere tulemast, {firstName}!",
+    "description": "Haldage oma isikuandmeid ja hoidke oma kontot turvaliselt."
+  },
+  "order_card": {
+    "order_date": "Tellimuse kuupäev",
+    "items": "Artiklid",
+    "title": "Tellimus #{id}",
+    "go_to_order": "Tellimuse vaatamine {orderNumber}"
+  },
+  "orders_page": {
+    "title": "Minu tellimused",
+    "meta": {
+      "title": "Minu tellimused",
+      "description": "Jälgige oma varasemaid ja jooksvaid oste koos staatuse uuendustega."
+    }
+  },
+  "order_list": {
+    "no_orders": {
+      "title": "Te ei ole veel ühtegi tellimust esitanud.",
+      "description": "Kui oled ostu sooritanud, kuvatakse sinu tellimuse andmed siin."
+    }
+  },
+  "order_detail_page": {
+    "title": "Tellimus #{id}",
+    "meta": {
+      "title": "Tellimus #{id}",
+      "description": "Vaata oma tellimuse üksikasju ja staatust #{id}."
+    }
+  },
+  "order_information": {
+    "order_details": {
+      "title": "Tellimuse üksikasjad",
+      "order_date": "Tellimuse kuupäev",
+      "customer_id": "Kliendi number",
+      "order_number": "Tellimuse number",
+      "estimated_delivery_date": "Eeldatav tarneaeg",
+      "delivered_by": "Saadab",
+      "order_number_value": "Tellimus #{orderNumber}"
+    },
+    "payment_details": {
+      "title": "Maksmise üksikasjad",
+      "payment_method": "Makseviis"
+    },
+    "address_details": {
+      "delivery_and_billing_address": "Tarne- ja arveldusaadress",
+      "delivery_address": "Tarneaadress",
+      "billing_address": "Arveldusaadress"
+    }
+  },
+  "order_detail_payment_summary": {
+    "total": "Kokku",
+    "subtotal": "Vahesumma",
+    "shipping_costs": "Tarne"
+  },
+  "product_detail_page": {
+    "meta": {
+      "description": "Osta {productName} veebis {shopName}. Avastage lai valik teisi kaubamärgiga tooteid."
+    }
+  },
+  "variant_picker": {
+    "select_size": "Valige suurus",
+    "option": {
+      "select_option": "Valige suurus {option}"
+    }
+  },
+  "sibling_selection": {
+    "sibling_error": "Viga: See atribuut ei ole määratud!",
+    "selected": "Valitud",
+    "unselected": "Valimata",
+    "a11ly": {
+      "alt_text": "{selected}, {alt}",
+      "sold_out_alt_text": "{selected}, {alt} (välja müüdud)"
+    }
+  },
+  "product_promotion_selection_modal": {
+    "details": "Üksikasjad"
+  },
+  "product_details": {
+    "information": {
+      "fit_size": "Istuvus ja suurus",
+      "extras": "Ekstra",
+      "design": "Disain"
+    },
+    "shipping_return_heading": {
+      "title": "Tarne ja tagastus",
+      "general_info": "Artiklite saatmise ja tagastamise postikulud ning pakendamiskulud katab SCAYLE. Mitme tootega tellimused võivad põhjustada osalisi tarneid.",
+      "dhl_headline": "DHL Standard Shipping - 0,00 EUR",
+      "dhl_paragraph": "Koheselt saadaval olevad kaubad toimetab DHL tavaliselt kohale 1-3 tööpäeva jooksul.",
+      "hermes_headline": "Hermes - 0,00 EUR",
+      "hermes_paragraph": "Kohe saadaval olevad kaubad toimetab Hermes tavaliselt 1-3 tööpäeva jooksul kohale.",
+      "return_information": "Kui tagastussilt on teie saadetisest puudu, võite igal ajal meie klienditeenindusest uut sildi taotleda."
+    }
+  },
+  "price": {
+    "starting_from": "aadressilt",
+    "30_day_best_price": "30 päeva parim hind:"
+  },
+  "product_list_page": {
+    "meta": {
+      "description": "Osta {category} aadressil {shopName}. Avastage lai valik {category}"
+    }
+  },
+  "product_list_no_results": {
+    "title": "Ei mingeid tulemusi 🫣",
+    "description": "Selles kategoorias ei ole kahjuks ühtegi toodet või teie filtrid ei anna tulemusi.",
+    "reset_filters": "Filtrite lähtestamine",
+    "back_to_category": "Tagasi {category}"
+  },
+  "sorting_select": {
+    "top_seller": "Soovitused",
+    "date_newest": "Uusim",
+    "price_desc": "Hind kahanevas järjestuses",
+    "price_asc": "Hind kasvavas järjestuses",
+    "reduction_desc": "Vähendamine kahanevas järjestuses"
+  },
+  "filter_header": {
+    "title": "Filtreeri kategooriad",
+    "close": "Sulge filtrid"
+  },
+  "filter_actions": {
+    "show_results_with_count": "Vaata {count} esemeid",
+    "show_results": "Vaata tooteid",
+    "reset_all_filter": "Kõikide filtrite lähtestamine"
+  },
+  "filter_slide_in_content": {
+    "sorting": "Sorteerimine",
+    "only_sale_option": "Näita ainult müügitavaid tooteid",
+    "product_image_view": "Vaata"
+  },
+  "filter_group": {
+    "reset": "Filtri lähtestamine"
+  },
+  "filter_color_chip": {
+    "select_color": "Valige värv {color}"
+  },
+  "filter": {
+    "notification": {
+      "all_filters_cleared": "Kõik filtrid on tühjendatud!",
+      "filter_updated": "Teie filtrid on edukalt rakendatud!",
+      "sort_updated": "Teie sorteerimine on edukalt rakendatud!",
+      "filter_and_sort_updated": "Teie sorteerimine ja filtrid on edukalt rakendatud!"
+    },
+    "show_filter": "Näita filtreid",
+    "show_filter_and_sorting": "Näita filtreid ja sorteerimist"
+  },
+  "order_success_page": {
+    "title": "Teie tellimuse kokkuvõte",
+    "meta": {
+      "title": "Tellimus kinnitatud! Täname teid ostu eest.",
+      "description": "Täname teid tellimuse eest! Teie ostu on kinnitatud. Kontrollige oma e-kirja tellimuse üksikasjade kohta."
+    },
+    "no_order_found": {
+      "title": "Tellimusteave puudub.",
+      "description": "Teie tellimuse andmete leidmine ebaõnnestus. Link võib olla aegunud või on kehtetu. Palun kontrollige oma e-kirjast õiget linki või võtke abi saamiseks ühendust klienditoega."
+    },
+    "go_to_order_details": "Tellimuse üksikasjad"
+  },
+  "order_success_page_greeting": {
+    "title": "Täname teid ostu eest!",
+    "email_confirmation": "Tellimuse kinnitus on saadetud teie esitatud e-posti aadressile."
+  },
+  "sign_in_page": {
+    "title": "Tere tulemast! Uus siin või tuled tagasi?",
+    "meta": {
+      "title": "Logi sisse või registreeru",
+      "description": "Juurdepääs oma kontole või uue konto loomine aadressil {shopName}. Nautige sujuvat ostukogemust turvalise sisselogimise ja isikupärastatud valikutega."
+    }
+  },
+  "authentication": {
+    "notification": {
+      "success": {
+        "login": "Sisselogimine õnnestus! Tere tulemast tagasi!",
+        "sign_up": "Teie konto on edukalt loodud!",
+        "forgot_password": "Teie e-posti aadressile on saadetud parooli lähtestamise link.",
+        "reset_password": "Teie salasõna on edukalt lähtestatud. Nüüd saate uue parooliga sisse logida.",
+        "guest_login": "Teie konto on loodud! Nüüd saate jätkata oma tellimuse täitmist."
+      }
+    }
+  },
+  "location_page": {
+    "title": "Leia kauplus sinu lähedal",
+    "subline": "Palun sisestage oma postiindeks või linn, et näha kauplusi teie lähedal.",
+    "geolocation": {
+      "error": {
+        "permission_denied": "Kasutaja keeldus geolokatsiooni küsitlusest",
+        "unknown": "Geolokatsiooni ei ole võimalik kindlaks teha"
+      }
+    }
+  },
+  "store_variant_availability": {
+    "choose_store": "Vali pood",
+    "change_store": "Muuda kauplust",
+    "store_availability_subline": "Palun valige kauplus",
+    "store_availability": "Poe kättesaadavus"
+  },
+  "store_locator": {
+    "store_information": {
+      "store_closed": "Suletud",
+      "store_open": "Avatud",
+      "remaining_open_time": "suletakse {hours}h {minutes}min",
+      "opening_hours": "Lahtiolekuajad"
+    },
+    "availability": {
+      "not_available": "Ei ole saadaval",
+      "available": "Saadaval",
+      "low_stock": "Madal varu"
+    },
+    "search_store_input_placeholder": "Sisestage linn või postiindeks",
+    "detect_location_label": "Määra mu asukoht"
+  },
+  "store_locator_slide_in": {
+    "headline": "Vali pood",
+    "select_store": "Valige pood",
+    "no_results": "Pole tulemusi"
+  },
+  "subscription_page": {
+    "headline": "Tellimuste haldamine",
+    "meta": {
+      "title": "Teie tellimused",
+      "description": "Haldage oma aktiivseid ja varasemaid tellimusi vaevata."
+    }
+  },
+  "product_subscription": {
+    "subscribe": "Telli ja salvesta",
+    "separation_text": "Või säästke veel rohkem:",
+    "select_size": "Valige suurus, et näha valikuid",
+    "not_eligible_for_subscription_message": "Valitud suurus ei sobi tellimiseks",
+    "add_to_basket": "Tellimus {interval}"
+  },
+  "subscription": {
+    "subscription": "Tellimus",
+    "interval": "Intervall",
+    "follow_up_delivery": "Järgmine tarne",
+    "day_of_month_selection_caption": "Iga kuu {dayOfMonth}",
+    "term": "Termin"
+  },
+  "image_slider": {
+    "a11ly": {
+      "go_to_previous_image": "Eelmine pilt",
+      "go_to_next_image": "Järgmine pilt"
+    }
+  },
+  "slider": {
+    "got_to_previous_item": "Eelmine",
+    "got_to_next_item": "Järgmine"
+  },
+  "product_image": {
+    "alt": "{brand}, {productName}, {colors}",
+    "alt_with_image_index": "{alt}, pilt {index} of {total}"
+  },
+  "country_detection": {
+    "switch_country_prompt": "Tundub, et oled asukohas {country}. Millise poe soovid valida?",
+    "switch_to_shop": "Mine {country} poe versiooni",
+    "stay_in_shop": "Jää {country} poodi",
+    "override_codes": {
+      "ZZ": "Rahvusvaheline"
+    },
+    "country_with_language": "{country} ({language})"
+  },
+  "footer": {
+    "copyright": "© {currentYear} SCAYLE, Kõik õigused kaitstud."
+  },
+  "pagination": {
+    "a11y": {
+      "go_to_previous_page": "Mine eelmisele leheküljele",
+      "go_to_pnext_page": "Mine järgmisele leheküljele"
+    }
+  },
+  "quantity_input": {
+    "change_value_to": "Muuda kogust {newQuantity}",
+    "current_value": "Kogus: {currentQuantity}"
+  },
+  "skip_links": {
+    "jump_to_main": "Liigu põhisisu juurde",
+    "jump_to_search": "Liigu otsinguni"
+  },
+  "product_attribute": {
+    "size": "Suurus",
+    "color": "Värv"
+  },
+  "order_status": {
+    "open": "Avatud",
+    "shipped": "Saadetud",
+    "cancelled": "Tühistatud",
+    "confirmed": "Kinnitatud"
+  },
+  "filter_range_slider": {
+    "to": "mine",
+    "price": {
+      "maximum": "Maksimaalne hind: {price}",
+      "minimum": "Minimaalne hind: {price}"
+    },
+    "percentage": {
+      "maximum": "Maksimaalne vähendamine: {reduction}",
+      "minimum": "Minimaalne vähendamine: {reduction}"
+    }
+  },
+  "recentlyViewedProductsSlider": {
+    "title": "Hiljuti vaadatud"
+  },
+  "basket_promotion_codes": {
+    "headline": "Sooduskoodid",
+    "add_code": "Lisa",
+    "remove_code": "Eemalda {code}",
+    "input_placeholder": "Kood",
+    "input_label": "Sooduskood",
+    "add_success": "Teie kood on edukalt rakendatud.",
+    "add_error": "Kahjuks ei õnnestunud sooduskoodi lisamine.",
+    "remove_error": "Kahjuks ei õnnestunud sooduskoodi eemaldamine."
+  },
+  "expressCheckout": {
+    "error": {
+      "deviceNotSupported": "Antud seade ei ole lubatud.",
+      "paymentMethodNotAvailable": "Valitud makseviis ei ole saadaval.",
+      "pspSessionCreationFailed": "Makseteenuse pakkuja sessiooni loomine ebaõnnestus.",
+      "failedToFetchSession": "Makse teenusepakkujalt ei õnnestunud kehtivat sessiooni hankida.",
+      "basketNotFound": "Ostukorvi ei leitud.",
+      "basketInvalid": "Ostukorv on kehtetu.",
+      "failedDependency": "Tehingu uuendamine ebaõnnestus.",
+      "unknownError": "Midagi läks valesti. Palun proovige uuesti.",
+      "errorShippingAddressValidationFailed": "Saaja aadressi kontrollimine ebaõnnestus.",
+      "outOfConstraints": "Korvi kogusumma ületab lubatud tellimuse väärtuse."
+    }
+  },
+  "preferred_primary_image_type_toggle": {
+    "default": "Vaikimisi"
+  },
+  "campaign": {
+    "deal": "Eriline"
+  },
+  "buy_x_get_y_products": {
+    "headline": "Ära jäta oma pakkumist kasutamata!",
+    "description": "Vali oma toode ja naudi oma preemiat.",
+    "a11y": {
+      "add_item": "Lisa oma reklaamtoode {name}"
+    }
+  }
+}

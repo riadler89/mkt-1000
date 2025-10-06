@@ -1,0 +1,139 @@
+# Artillery Load Test Configuration
+# This file defines a multi-phase load test scenario for the storefront application.
+# It simulates a mix of virtual users accessing different types of pages.
+#
+# RECOMMENDED ENVIRONMENT VARIABLES FOR STABLE LOAD TESTING:
+# ARTILLERY_LOAD_DURATION_P1=60    # 1 minute warm-up
+# ARTILLERY_LOAD_ARRIVAL_RATE_P1=1 # Start with 1 user per second
+# ARTILLERY_LOAD_RAMP_TO_P1=2      # Ramp to 2 users per second
+# ARTILLERY_LOAD_DURATION_P2=120   # 2 minutes ramp-up
+# ARTILLERY_LOAD_ARRIVAL_RATE_P2=2 # Start ramp from 2 users per second
+# ARTILLERY_LOAD_RAMP_TO_P2=5      # Ramp to 5 users per second
+# ARTILLERY_LOAD_DURATION_P3=180   # 3 minutes peak load
+# ARTILLERY_LOAD_ARRIVAL_RATE_P3=5 # Maintain 5 users per second
+#
+# SCENARIO WEIGHTS (should sum to 100):
+# ARTILLERY_LOAD_WEIGHT_S1=30      # Homepage: 30%
+# ARTILLERY_LOAD_WEIGHT_S2=20      # PLP: 20%
+# ARTILLERY_LOAD_WEIGHT_S3=20      # PDP: 20%
+# ARTILLERY_LOAD_WEIGHT_S4=10      # Add to basket: 10%
+# ARTILLERY_LOAD_WEIGHT_S5=10      # Add to wishlist from PLP: 10%
+# ARTILLERY_LOAD_WEIGHT_S6=5       # Add to wishlist from PDP: 5%
+# ARTILLERY_LOAD_WEIGHT_S7=5       # Navigate PLP to PDP: 5%
+#
+config:
+  # The base URL for all HTTP requests. Requests in the scenarios below will be made to this target.
+  target: '{{ $processEnvironment.BASE_URL }}'
+  http:
+    timeout: 30
+  engines:
+    playwright: {
+        timeout: 90000, # Increased to 90 seconds for Playwright operations
+        retries: 3, # Increased retries for failed operations
+        browserOptions: { args: [
+                '--no-sandbox',
+                '--disable-dev-shm-usage',
+                '--disable-gpu',
+                '--disable-web-security',
+                '--disable-features=VizDisplayCompositor',
+                '--disable-background-timer-throttling',
+                '--disable-backgrounding-occluded-windows',
+                '--disable-renderer-backgrounding',
+                '--disable-ipc-flooding-protection',
+                '--memory-pressure-off',
+                '--max_old_space_size=512', # Limit per-browser memory
+                '--disk-cache-size=0', # Disable disk cache to save memory
+              ] },
+      }
+  processor: '../tests/test-flows-playwright.ts'
+
+  # The phases block defines how the load (number of virtual users) is injected over time.
+  phases:
+    # Phase 1: A gentle warm-up period to avoid overwhelming the system from a cold start.
+    - name: 'Gentle Start'
+      duration: '{{ $processEnvironment.ARTILLERY_LOAD_DURATION_P1 }}'
+      arrivalRate: '{{ $processEnvironment.ARTILLERY_LOAD_ARRIVAL_RATE_P1 }}'
+      rampTo: '{{ $processEnvironment.ARTILLERY_LOAD_RAMP_TO_P1 }}'
+
+    # Phase 2: Gradually increases the load to simulate a build-up of user traffic.
+    - name: 'Ramp Up'
+      duration: '{{ $processEnvironment.ARTILLERY_LOAD_DURATION_P2 }}'
+      arrivalRate: '{{ $processEnvironment.ARTILLERY_LOAD_ARRIVAL_RATE_P2 }}'
+      rampTo: '{{ $processEnvironment.ARTILLERY_LOAD_RAMP_TO_P2 }}'
+
+    # Phase 3: A sustained period of high load to test system stability and performance under stress.
+    - name: 'Peak Load'
+      duration: '{{ $processEnvironment.ARTILLERY_LOAD_DURATION_P3 }}'
+      arrivalRate: '{{ $processEnvironment.ARTILLERY_LOAD_ARRIVAL_RATE_P3 }}'
+
+# The scenarios block defines the behavior of each virtual user.
+scenarios:
+  # Scenario 1: Homepage access.
+  # This represents users who are just browsing the landing page.
+  - name: 'Open Homepage'
+    weight: '{{ $processEnvironment.ARTILLERY_LOAD_WEIGHT_S1 }}'
+    engine: playwright
+    testFunction: 'openHomepage'
+    think:
+      - 1
+      - 3
+
+  # Scenario 2: PLP access.
+  # This represents users who are browsing a category page.
+  - name: 'Open PLP'
+    weight: '{{ $processEnvironment.ARTILLERY_LOAD_WEIGHT_S2 }}'
+    engine: playwright
+    testFunction: 'openPlp'
+    think:
+      - 1
+      - 3
+
+  # Scenario 3: PDP access.
+  # This represents users who are viewing a specific product page.
+  - name: 'Open PDP'
+    weight: '{{ $processEnvironment.ARTILLERY_LOAD_WEIGHT_S3 }}'
+    engine: playwright
+    testFunction: 'openPdp'
+    think:
+      - 1
+      - 3
+
+  # Scenario 4: Add to Basket.
+  # This represents users who are viewing a specific product page and adding the product to Basket.
+  - name: 'Add item from PDP to Basket'
+    weight: '{{ $processEnvironment.ARTILLERY_LOAD_WEIGHT_S4 }}'
+    engine: playwright
+    testFunction: 'fromPdpToBasket'
+    think:
+      - 1
+      - 3
+
+  # Scenario 5: Add to Wishlist from PLP.
+  # This represents users who are viewing a specific product listing page and adding the product to Wishlist.
+  - name: 'Add item from PLP to Wishlist'
+    weight: '{{ $processEnvironment.ARTILLERY_LOAD_WEIGHT_S5 }}'
+    engine: playwright
+    testFunction: 'fromPlpToWishlist'
+    think:
+      - 1
+      - 3
+
+  # Scenario 6: Add to Wishlist from PDP.
+  # This represents users who are viewing a specific product page and adding the product to Wishlist.
+  - name: 'Add item from PDP to Wishlist'
+    weight: '{{ $processEnvironment.ARTILLERY_LOAD_WEIGHT_S6 }}'
+    engine: playwright
+    testFunction: 'fromPdpToWishlist'
+    think:
+      - 1
+      - 3
+
+  # Scenario 7: Navigates from PLP to another PLP and then to PDP.
+  # This represents users who are viewing root category PLP, navigating to sub-category PLP and then navigating to PDP by clicking PLP product card.
+  - name: 'Navigate from root category to sub-category PLP and then open PDP'
+    weight: '{{ $processEnvironment.ARTILLERY_LOAD_WEIGHT_S7 }}'
+    engine: playwright
+    testFunction: 'navigatePlpToPdp'
+    think:
+      - 1
+      - 3

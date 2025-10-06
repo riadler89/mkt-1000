@@ -1,0 +1,602 @@
+{
+  "global": {
+    "sold_out": "Udsolgt",
+    "sold_out_long": "I øjeblikket udsolgt online.",
+    "sign_up": "Tilmeld dig",
+    "sign_in": "Log ind",
+    "sign_out": "Log ud",
+    "product_recommendation": "Anbefalede parringer",
+    "seconds": "sekund | sekunder",
+    "minutes": "minut | minutter",
+    "hours": "time | timer",
+    "days": "dag | dage",
+    "back": "Tilbage",
+    "continue_shopping": "Fortsæt med at handle",
+    "cancel": "Annuller",
+    "payment_key": {
+      "default": "Kreditkort",
+      "accounting": "Betaling med faktura",
+      "paypal": "PayPal",
+      "klarna_paylater": "Klarna Pay Later",
+      "klarna_paynow": "Klarna Pay Now",
+      "klarna_installments": "Klarna Installments"
+    },
+    "carrier_key": {
+      "DEFAULT": "UPS"
+    },
+    "back_to_shop": "Tilbage til shop",
+    "to_shop": "Til shop",
+    "close": "Luk",
+    "including_vat": "inkl. moms.",
+    "excluding_vat": "ekskl. moms.",
+    "save": "Gem",
+    "search": "Søg",
+    "quantity": "Mængde",
+    "scroll_to_top_label": "Rul til toppen",
+    "ordinal_suffix": "th | st | nd | rd"
+  },
+  "notification": {
+    "confirm": "OK",
+    "view": "Visning"
+  },
+  "promotion": {
+    "deal": "Deal",
+    "free_label": "Gratis",
+    "condition": "Betingelse"
+  },
+  "promotion_progress_wrapper": {
+    "remaining_minimum_order_value": "Lås op for din deal! Brug {amount} mere for at aktivere denne kampagne.",
+    "fulfilled_promotion_condition": "Du har låst op for et særligt tilbud! Læg kvalificerede produkter i din indkøbskurv for at nyde godt af fordelene.",
+    "partial_savings": "Godt gået! Du har låst en aftale op og sparet {amount}. Fortsæt med at shoppe for at låse endnu mere op.",
+    "full_savings": "Godt gået! Du har låst op for hele tilbuddet og sparet {amount}.",
+    "free_gift_unlocked": "Godt gået! Du har låst en gratis gave op.",
+    "free_gift": "Gratis gave",
+    "combo_deal_unlocked": "Godt gået! Du har låst hele tilbuddet op og gemt {amount}.",
+    "combo_deal": "Lås din aftale op! Tilføj kvalificerede produkter til din indkøbskurv for at nyde godt af tilbuddet."
+  },
+  "promotion_slide_in": {
+    "open_button": {
+      "no_active_promotions_title": "Dine deals",
+      "active_promotions_title": "Dine deals- {total} Aktive kampagner"
+    },
+    "headline": "Dine deals",
+    "subline": "Find nedsatte produkter ved at klikke på en kampagne. Oplev konstant skiftende tilbud på udvalgte varer.",
+    "active_promotions": "Aktive kampagner {total}",
+    "no_active_promotions": "Ingen aktive kampagner",
+    "no_active_subline": "Du har i øjeblikket ingen aktive kampagner. Kom tilbage senere for nye tilbud og særtilbud!"
+  },
+  "shop_selector": {
+    "aria_label": "Skift shop, nuværende shop: {selectedCountry}, {selectedLanguage}",
+    "flyout_title": "Sprog og land",
+    "choose_language": "Vælg dit sprog",
+    "choose_country": "Vælg dit land",
+    "close_flyout": "Luk modal for butiksvalg"
+  },
+  "validation": {
+    "email": "Indtast venligst en gyldig e-mailadresse.",
+    "password": "Din {field} skal indeholde mindst et specialtegn, et stort bogstav, et lille bogstav og et tal.",
+    "required": "{field} er påkrævet.",
+    "same_as": "{field} skal være det samme som feltet {otherField}.",
+    "max_length": "{field} skal være {max} eller mindre.",
+    "min_length": "{field} skal være mindst {min} tegn lang.",
+    "date": "{field} skal være en gyldig dato.",
+    "name": "{field} er ikke korrekt formateret.",
+    "past_date": "{field} kan ikke have en dato, der ligger i fremtiden."
+  },
+  "form_fields": {
+    "first_name": "Fornavn",
+    "last_name": "Efternavn",
+    "email": "E-mail-adresse",
+    "old_password": "Nuværende adgangskode",
+    "new_password": "Ny adgangskode",
+    "password": "Adgangskode",
+    "gender": "Køn",
+    "gender_options": {
+      "male": "mand",
+      "female": "Kvinde",
+      "diverse": "Diverse",
+      "none": "Foretrækker ikke at sige"
+    },
+    "birth_date": "Fødselsdag"
+  },
+  "error": {
+    "unknown_error_title": "Åh - noget gik galt",
+    "page_not_found_title": "Side ikke fundet",
+    "page_not_found_message": "Beklager, den side, du leder efter, findes ikke eller er blevet flyttet.",
+    "error_code_label": "Fejlkode:",
+    "unknown_error_message": "Din anmodning kunne ikke behandles. Prøv igen senere."
+  },
+  "badge_labels": {
+    "new": "Nyheder",
+    "already_in_basket": "Allerede i kurven"
+  },
+  "navigation": {
+    "find_a_store": "Find en shop",
+    "wishlist": "Ønskeliste | Ønskeliste, {count} vare | Ønskeliste, {count} varer",
+    "a11ly": {
+      "side_navigation": "Åben side-navigation"
+    }
+  },
+  "checkout_page": {
+    "title": "Kasse"
+  },
+  "search_page": {
+    "title": "Produkter for \"{term}\"",
+    "meta": {
+      "title": "Produkter for \"{term}\""
+    }
+  },
+  "show_all_results_link": {
+    "open_on_search_page": "Se alle resultater på {searchTerm}"
+  },
+  "product_suggestion_list": {
+    "title": "Produkter"
+  },
+  "category_suggestion_list": {
+    "title": "Kategorier"
+  },
+  "navigation_item_suggestion_list": {
+    "title": "Sider"
+  },
+  "search_input": {
+    "placeholder": "Søg efter produkt, kategori eller brand"
+  },
+  "wishlist_page": {
+    "meta": {
+      "title": "Din ønskeliste",
+      "description": "Gem dine yndlingsprodukter, og hold styr på dine must-haves."
+    },
+    "title": "Ønskeliste",
+    "empty_wishlist_title": "Du har ingen varer på din ønskeliste.",
+    "empty_wishlist_description": "Køb vores nyeste produkter, eller log ind for at se din gemte ønskeliste."
+  },
+  "wishlist_toggle": {
+    "remove_from_wishlist": "Fjern fra ønskeliste",
+    "add_to_wishlist": "Tilføj til ønskeliste"
+  },
+  "basket_page": {
+    "title": "Kurv",
+    "a11y": {
+      "title": "Kurv | Kurv, {count} vare | Kurv, {count} varer"
+    },
+    "empty_basket_title": "Din indkøbskurv er tom.",
+    "empty_basket_description": "Dine produkter vises, så snart du lægger dem i din indkøbskurv.",
+    "meta": {
+      "title": "Kurv",
+      "description": "Gennemgå varerne i din kurv, og gå nemt til kassen. Sikker og problemfri shopping på {shopName}."
+    }
+  },
+  "basket": {
+    "go_to_checkout": "Gå til kassen",
+    "available_products": "Tilgængelige produkter",
+    "unavailable_products": "Utilgængelige produkter"
+  },
+  "basket_popover_items": {
+    "no_items_info": "Du har ingen produkter i din kurv."
+  },
+  "basket_popover_actions": {
+    "go_to_basket": "Gå til kurven"
+  },
+  "basket_summary": {
+    "delivery_fees": "* Leveringsgebyrer bestemmes under checkout, når du har valgt en foretrukken leveringsmulighed.",
+    "total": "Total",
+    "subtotal": "Subtotal",
+    "you_pay": "Du betaler",
+    "discount": "Rabatter",
+    "delivery": "Levering"
+  },
+  "basket_summary_reduction": {
+    "sale": "Salg",
+    "voucher": "Rabatkupon"
+  },
+  "add_to_basket": {
+    "add_to_basket": "Tilføj til kurv",
+    "product_name_fallback": "Produkt",
+    "notification": {
+      "select_size": "Vælg venligst størrelse, før du lægger varen i kurven",
+      "add_to_basket_success": "{productName} er blevet føjet til din kurv",
+      "add_to_basket_error": "{productName} kunne ikke føjes til din kurv",
+      "add_to_basket_variant_out_of_stock_error": "Denne størrelse er i øjeblikket ikke på lager",
+      "add_to_basket_max_basket_items_error": "Ups, ups! Du har nået det maksimale antal tilladte varer i din kurv.",
+      "add_subscription_to_basket_success": "{productName} {interval} Abonnementet er blevet føjet til din kurv",
+      "add_with_reduced_quantity_error": "Beklager, der er ikke flere varer i denne størrelse. Alle tilgængelige varer er allerede lagt i din kurv."
+    }
+  },
+  "basket_card": {
+    "remove_from_basket_confirmation": "Er du sikker på, at du vil fjerne denne vare?",
+    "confirm_removal": "Fjern varen"
+  },
+  "password_input": {
+    "hide": "Skjul adgangskode",
+    "show": "Vis adgangskode"
+  },
+  "user_navigation_item": {
+    "greeting": "Hej {firstName}",
+    "a11y": {
+      "title": "Min konto"
+    },
+    "menu_items": {
+      "subscriptions": "Dine abonnementer",
+      "orders": "Dine ordrer",
+      "profile": "Kontoindstillinger"
+    }
+  },
+  "profile_account_information": {
+    "title": "Oplysninger om konto",
+    "customer_number": "Kundens nummer:",
+    "email": "Registreret e-mail:",
+    "disclaimer": "Ændring af e-mail understøttes ikke. Hvis du har brug for hjælp, bedes du kontakte support."
+  },
+  "profile_personal_information": {
+    "title": "Personlige oplysninger",
+    "description": "Opdater dine personlige oplysninger for at holde din konto opdateret.",
+    "success_message": "Dine data er blevet opdateret med succes.",
+    "error_message": "Oplysningerne kunne ikke gemmes. Prøv venligst igen."
+  },
+  "profile_password_management": {
+    "title": "Håndtering af adgangskoder",
+    "description": "Hold din konto sikker ved at opdatere din adgangskode regelmæssigt.",
+    "idp_description": "Din konto er sikret gennem en ekstern login-udbyder, så det er ikke nødvendigt at ændre din adgangskode her. Hvis du vil opdatere din adgangskode, skal du besøge din login-udbyders indstillinger.",
+    "success_message": "Din adgangskode er blevet opdateret.",
+    "error": {
+      "400_bad_request": "Din anmodning kunne ikke behandles, prøv venligst igen.",
+      "401_unauthorized": "Din anmodning kunne ikke behandles, prøv venligst igen.",
+      "403_forbidden": "Din adgangskode kunne ikke opdateres. Tjek venligst din nuværende adgangskode, og prøv igen."
+    }
+  },
+  "account_page": {
+    "title": "Din konto",
+    "meta": {
+      "title": "Din konto",
+      "description": "Administrer din profil, dine ordrer og dine abonnementer på ét sted."
+    }
+  },
+  "account_tabs": {
+    "orders": "Ordrer",
+    "profile": "Profil",
+    "subscriptions": "Abonnementer"
+  },
+  "profile_page": {
+    "title": "Administrer din konto",
+    "meta": {
+      "title": "Kontoindstillinger",
+      "description": "Opdater dine personlige oplysninger, e-mail og adgangskode her."
+    },
+    "greeting": "Velkommen, {firstName}!",
+    "description": "Administrer dine personlige oplysninger, og hold din konto sikker."
+  },
+  "order_card": {
+    "order_date": "Bestillingsdato",
+    "items": "Varer",
+    "title": "Ordre nr.{id}",
+    "go_to_order": "Vis ordre {orderNumber}"
+  },
+  "orders_page": {
+    "title": "Dine ordrer",
+    "meta": {
+      "title": "Dine ordrer",
+      "description": "Spor dine tidligere og nuværende ordrer med statusopdateringer."
+    }
+  },
+  "order_list": {
+    "no_orders": {
+      "title": "Du har ikke afgivet nogen ordrer endnu.",
+      "description": "Når du har foretaget et køb, vises dine ordreoplysninger her."
+    }
+  },
+  "order_detail_page": {
+    "title": "Ordre{id}",
+    "meta": {
+      "title": "Bestilling{id}",
+      "description": "Se detaljer og status for din ordre #{id}."
+    }
+  },
+  "order_information": {
+    "order_details": {
+      "title": "Detaljer om ordren",
+      "order_date": "Bestillingsdato",
+      "customer_id": "Kundenummer",
+      "order_number": "Ordrenummer",
+      "estimated_delivery_date": "Forventet levering",
+      "delivered_by": "Afsendt af",
+      "order_number_value": "Ordre nr.{orderNumber}"
+    },
+    "payment_details": {
+      "title": "Detaljer om betaling",
+      "payment_method": "Betalingsmetode"
+    },
+    "address_details": {
+      "delivery_and_billing_address": "Leverings- og faktureringsadresse",
+      "delivery_address": "Leveringsadresse",
+      "billing_address": "Faktureringsadresse"
+    }
+  },
+  "order_detail_payment_summary": {
+    "total": "Total",
+    "subtotal": "Subtotal",
+    "shipping_costs": "Forsendelse"
+  },
+  "product_detail_page": {
+    "meta": {
+      "description": "Køb {productName} online hos {shopName}. Oplev det store udvalg af andre mærkevarer."
+    }
+  },
+  "variant_picker": {
+    "select_size": "Vælg størrelse",
+    "option": {
+      "select_option": "Vælg størrelse {option}"
+    }
+  },
+  "sibling_selection": {
+    "sibling_error": "fejl: Denne attribut er ikke indstillet!",
+    "selected": "Udvalgt",
+    "unselected": "Ikke valgt",
+    "a11ly": {
+      "alt_text": "{selected}, {alt}",
+      "sold_out_alt_text": "{selected}, {alt} (Udsolgt)"
+    }
+  },
+  "product_promotion_selection_modal": {
+    "details": "Detaljer"
+  },
+  "product_details": {
+    "information": {
+      "fit_size": "Pasform og størrelse",
+      "extras": "Ekstra",
+      "design": "Design"
+    },
+    "shipping_return_heading": {
+      "title": "Forsendelse og returnering",
+      "general_info": "Portoen for forsendelse og returnering af varer samt emballageomkostningerne dækkes af SCAYLE. Bestillinger med flere produkter kan resultere i delleverancer.",
+      "dhl_headline": "DHL standardforsendelse - 0,00 EUR",
+      "dhl_paragraph": "Umiddelbart tilgængelige varer leveres normalt med DHL inden for 1-3 arbejdsdage.",
+      "hermes_headline": "Hermes - 0,00 EUR",
+      "hermes_paragraph": "Umiddelbart tilgængelige varer leveres normalt af Hermes inden for 1-3 arbejdsdage.",
+      "return_information": "Hvis der mangler en returlabel i din levering, kan du til enhver tid anmode om en ny fra vores kundeservice."
+    }
+  },
+  "price": {
+    "starting_from": "fra",
+    "30_day_best_price": "30 dages bedste pris:"
+  },
+  "product_list_page": {
+    "meta": {
+      "description": "Køb {category} hos {shopName}. Oplev et bredt udvalg af {category}"
+    }
+  },
+  "product_list_no_results": {
+    "title": "Ingen resultater 🫣",
+    "description": "Der er desværre ingen produkter i denne kategori, eller dine filtre resulterer ikke i produkter.",
+    "reset_filters": "Nulstil filtre",
+    "back_to_category": "Tilbage til {category}"
+  },
+  "sorting_select": {
+    "top_seller": "Anbefalinger",
+    "date_newest": "Nyeste",
+    "price_desc": "Pris faldende",
+    "price_asc": "Stigende pris",
+    "reduction_desc": "Reduktion i faldende rækkefølge"
+  },
+  "filter_header": {
+    "title": "Filtrer kategorier",
+    "close": "Luk filtre"
+  },
+  "filter_actions": {
+    "show_results_with_count": "Se {count} varer",
+    "show_results": "Vis varer",
+    "reset_all_filter": "Nulstil alle"
+  },
+  "filter_slide_in_content": {
+    "sorting": "Sortering",
+    "only_sale_option": "Vis kun salgsprodukter",
+    "product_image_view": "Vis"
+  },
+  "filter_group": {
+    "reset": "Nulstil filter"
+  },
+  "filter_color_chip": {
+    "select_color": "Vælg farve {color}"
+  },
+  "filter": {
+    "notification": {
+      "all_filters_cleared": "Alle filtre er ryddet!",
+      "filter_updated": "Dine filtre er blevet anvendt med succes!",
+      "sort_updated": "Din sortering er blevet anvendt med succes!",
+      "filter_and_sort_updated": "Din sortering og dine filtre er blevet anvendt med succes!"
+    },
+    "show_filter": "Vis filtre",
+    "show_filter_and_sorting": "Vis filtre og sortering"
+  },
+  "order_success_page": {
+    "title": "Din ordreoversigt",
+    "meta": {
+      "title": "Ordre bekræftet! Tak for dit køb",
+      "description": "Tak for din bestilling! Dit køb er bekræftet. Tjek din e-mail for ordreoplysninger."
+    },
+    "no_order_found": {
+      "title": "Ordreoplysningerne kunne ikke findes.",
+      "description": "Dine ordreoplysninger kunne ikke hentes. Linket er muligvis udløbet eller ugyldigt. Tjek venligst din e-mail for det korrekte link, eller kontakt support for hjælp."
+    },
+    "go_to_order_details": "Detaljer om ordren"
+  },
+  "order_success_page_greeting": {
+    "title": "Tak for dit køb!",
+    "email_confirmation": "Ordrebekræftelsen er sendt til den e-mailadresse, du har angivet."
+  },
+  "sign_in_page": {
+    "title": "Velkommen til! Er du ny her, eller kommer du tilbage?",
+    "meta": {
+      "title": "Log ind eller registrer dig",
+      "description": "Få adgang til din konto, eller opret en ny på {shopName}. Nyd en problemfri shoppingoplevelse med sikkert login og personlige indstillinger."
+    }
+  },
+  "authentication": {
+    "notification": {
+      "success": {
+        "login": "Login vellykket! Velkommen tilbage!",
+        "sign_up": "Din konto er blevet oprettet med succes!",
+        "forgot_password": "Et link til nulstilling af adgangskode er blevet sendt til din e-mail.",
+        "reset_password": "Din adgangskode er blevet nulstillet. Du kan nu logge ind med din nye adgangskode.",
+        "guest_login": "Din konto er blevet oprettet! Du kan nu gå videre med din bestilling."
+      }
+    }
+  },
+  "location_page": {
+    "title": "Find en shop i nærheden af dig",
+    "subline": "Indtast dit postnummer eller din by for at se shops i nærheden af dig.",
+    "geolocation": {
+      "error": {
+        "permission_denied": "Bruger nægtet geolokaliseringsprompt",
+        "unknown": "Ude af stand til at bestemme geolokation"
+      }
+    }
+  },
+  "store_variant_availability": {
+    "choose_store": "Vælg shop",
+    "change_store": "Skift shop",
+    "store_availability_subline": "Vælg venligst en shop",
+    "store_availability": "Shop-tilgængelighed"
+  },
+  "store_locator": {
+    "store_information": {
+      "store_closed": "Lukket",
+      "store_open": "Åben",
+      "remaining_open_time": "lukker om {hours}t {minutes}min",
+      "opening_hours": "Åbningstider"
+    },
+    "availability": {
+      "not_available": "Ikke tilgængelig",
+      "available": "Tilgængelig",
+      "low_stock": "Lavt lager"
+    },
+    "search_store_input_placeholder": "Indtast by eller postnummer",
+    "detect_location_label": "Find min placering"
+  },
+  "store_locator_slide_in": {
+    "headline": "Vælg shop",
+    "select_store": "Vælg shop",
+    "no_results": "Ingen resultater"
+  },
+  "subscription_page": {
+    "headline": "Administrer dine abonnementer",
+    "meta": {
+      "title": "Dine abonnementer",
+      "description": "Administrer dine aktive og tidligere abonnementer uden besvær."
+    }
+  },
+  "product_subscription": {
+    "subscribe": "Abonner og spar",
+    "separation_text": "Eller spar endnu mere:",
+    "select_size": "Vælg størrelse for at se muligheder",
+    "not_eligible_for_subscription_message": "Den valgte størrelse er ikke berettiget til et abonnement",
+    "add_to_basket": "Abonner på {interval}"
+  },
+  "subscription": {
+    "subscription": "Abonnement",
+    "interval": "Interval",
+    "follow_up_delivery": "Opfølgende levering",
+    "day_of_month_selection_caption": "Hver {dayOfMonth} i måneden",
+    "term": "Term"
+  },
+  "image_slider": {
+    "a11ly": {
+      "go_to_previous_image": "Forrige billede",
+      "go_to_next_image": "Næste billede"
+    }
+  },
+  "slider": {
+    "got_to_previous_item": "Tidligere",
+    "got_to_next_item": "Næste"
+  },
+  "product_image": {
+    "alt": "{brand}, {productName}, {colors}",
+    "alt_with_image_index": "{alt}, Billede {index} af {total}"
+  },
+  "country_detection": {
+    "switch_country_prompt": "Det ser ud til, at du er i {country}. Hvilken shop vil du gerne besøge?",
+    "switch_to_shop": "Skift til shop {country}",
+    "stay_in_shop": "Bliv i shop {country}",
+    "override_codes": {
+      "ZZ": "International"
+    },
+    "country_with_language": "{country} ({language})"
+  },
+  "footer": {
+    "copyright": "© {currentYear} SCAYLE, Alle rettigheder forbeholdes"
+  },
+  "pagination": {
+    "a11y": {
+      "go_to_previous_page": "Gå til den forrige side",
+      "go_to_pnext_page": "Gå til næste side"
+    }
+  },
+  "quantity_input": {
+    "change_value_to": "Skift mængde til {newQuantity}",
+    "current_value": "Mængde: {currentQuantity}"
+  },
+  "skip_links": {
+    "jump_to_main": "Spring til hovedindholdet",
+    "jump_to_search": "Spring til søgning"
+  },
+  "product_attribute": {
+    "size": "størrelse",
+    "color": "Farve"
+  },
+  "order_status": {
+    "open": "Åben",
+    "shipped": "Afsendt",
+    "cancelled": "Annulleret",
+    "confirmed": "Bekræftet"
+  },
+  "filter_range_slider": {
+    "to": "til",
+    "price": {
+      "maximum": "Maksimal pris: {price}",
+      "minimum": "Minimumpris: {price}"
+    },
+    "percentage": {
+      "maximum": "Maksimal reduktion: {reduction}",
+      "minimum": "Minimum reduktion: {reduction}"
+    }
+  },
+  "recentlyViewedProductsSlider": {
+    "title": "Senest viste"
+  },
+  "basket_promotion_codes": {
+    "headline": "Kampagnekoder",
+    "add_code": "Tilføj",
+    "remove_code": "Fjern {code}",
+    "input_placeholder": "Kode",
+    "input_label": "Kampagnekode",
+    "add_success": "Din kode er blevet anvendt korrekt.",
+    "add_error": "Desværre kunne kampagnekoden ikke tilføjes.",
+    "remove_error": "Desværre kunne kampagnekoden ikke fjernes."
+  },
+  "expressCheckout": {
+    "error": {
+      "deviceNotSupported": "Den angivne enhed er ikke tilladt.",
+      "paymentMethodNotAvailable": "Den valgte betalingsmetode er ikke tilgængelig.",
+      "pspSessionCreationFailed": "Det lykkedes ikke at oprette en session til betalingstjenesteudbyderen.",
+      "failedToFetchSession": "Det er ikke muligt at hente en gyldig session fra betalingstjenesteudbyderen.",
+      "basketNotFound": "Kurven blev ikke fundet.",
+      "basketInvalid": "Kurven er ugyldig.",
+      "failedDependency": "Transaktionen kunne ikke opdateres.",
+      "unknownError": "Der opstod en fejl. Prøv igen.",
+      "errorShippingAddressValidationFailed": "Validering af leveringsadresse mislykkedes.",
+      "outOfConstraints": "Kurvens samlede beløb overstiger den tilladte ordreværdi."
+    }
+  },
+  "preferred_primary_image_type_toggle": {
+    "default": "Standard"
+  },
+  "campaign": {
+    "deal": "Special"
+  },
+  "buy_x_get_y_products": {
+    "headline": "Gå ikke glip af dit tilbud!",
+    "description": "Vælg din vare nu og nyd din belønning.",
+    "a11y": {
+      "add_item": "Tilføj dit kampagneprodukt {name}"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+---
+description: Base component design and implementation patterns
+globs: ["**/modules/ui/**/*", "**/components/**/*"]
+alwaysApply: false
+---
+
+# Base Components Guidelines
+
+## Base Component Naming
+- Use descriptive names that clearly indicate the component's purpose, following the patterns of other base components
+- Place base components in the `modules/ui/runtime/components` directory
+- Group related components in a subdirectory
+
+## Base Component Design
+- Design base components to be highly reusable and configurable
+- Use props for customization rather than hardcoded values
+- Provide sensible defaults while allowing full customization
+- Implement proper TypeScript interfaces for all props
+- Use slots for flexible content insertion when appropriate
+- Use props appropriately and avoid excessive prop drilling
+
+## Base Component Implementation
+- Keep base components focused on a single responsibility
+- Use Composition API with `<script setup>` for consistency
+- **Favor `ref()` over `reactive()`** for component state
+- Implement proper event emission for user interactions
+- Provide comprehensive prop validation and documentation
+- **Use Tailwind CSS utility classes for styling** - avoid `<style>` blocks
+
+## Base Component Styling
+- **Prefer atomic CSS approach** over semantic class names
+- Use Tailwind utility classes for all styling needs
+- Avoid custom CSS unless absolutely necessary
+- Use the existing design system defined in `tailwind.config.ts`
+- Implement responsive design using Tailwind's responsive prefixes
+
+## Base Component Testing
+- Write comprehensive tests for all base components
+- Test different prop combinations and edge cases
+- Ensure accessibility compliance in component tests
+- Test keyboard navigation and screen reader compatibility
+- Document usage examples and common patterns
+
+## Import Guidelines
+- **Always prefer importing from `@scayle/storefront-nuxt`** over `@scayle/storefront-core` or `@scayle/storefront-api`
+- Use `@scayle/storefront-nuxt` as the primary import source for all storefront functionality
+- Avoid direct imports from internal dependencies when possible
+- Import base component utilities directly from their source files
+- Use explicit imports to improve tree-shaking and bundle optimization

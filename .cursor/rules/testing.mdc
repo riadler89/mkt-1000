@@ -1,0 +1,53 @@
+---
+description: Testing standards for components, RPC methods, and accessibility
+globs: ["**/*.test.*", "**/*.spec.*", "**/tests/**/*", "**/playwright/**/*"]
+alwaysApply: false
+---
+
+# Testing Guidelines
+
+## Testing Standards
+- Write unit tests for all composables and utilities
+- Test component behavior and user interactions
+- Use the existing testing setup with Vitest and Playwright
+- Maintain good test coverage for critical functionality
+- Follow the established testing patterns in the codebase
+
+## Component Testing
+- Test different prop combinations and edge cases
+- Ensure accessibility compliance in component tests
+- Test keyboard navigation and screen reader compatibility
+- Test responsive behavior across different screen sizes
+- Mock external dependencies appropriately
+- Use `@vue/test-utils` or `@nuxt/test-utils` when the component has Nuxt-specific dependencies such as `useNuxtApp()`
+
+## RPC Method Testing
+- Test RPC methods with various parameter combinations
+- Test error handling and edge cases
+- Mock external API calls and dependencies
+- Test proper context usage and logging
+- Verify return value types and structures
+
+## Accessibility Testing
+- Use `expect(element).toMatchAriaSnapshot({ name: 'component-name.aria.yml' })` for ARIA tree testing
+- Test mobile/desktop separately with `if (isMobile(page))` conditions
+- Use `press('Tab')`, `press('Enter')`, and `press('Space')` for keyboard navigation
+- Verify focus with `expect(element).toBeFocused()` after keyboard interactions
+- Test ARIA attributes: e.g. `expect(element).toHaveAttribute('aria-current', 'page')`
+- Use `isMobile(page)` utility to conditionally test mobile-specific accessibility features
+- Ensure that content is accessible to screen readers
+- Ensure color contrast meets WCAG guidelines
+
+## Performance Testing
+- Test component rendering performance
+- Monitor bundle size impact of changes
+- Test lazy loading and code splitting
+- Validate Core Web Vitals metrics
+- Test with different data volumes
+
+## Code Organization
+- Avoid barrel imports in test files
+- Import test utilities and mocks directly from their source files
+- Use explicit imports to improve test clarity
+- Group test files alongside the code they test
+- Maintain consistent test naming conventions

@@ -1,0 +1,45 @@
+---
+description: Atomic CSS approach and Tailwind utility guidelines
+globs: ["**/*.vue", "**/*.ts", "**/tailwind.config.*"]
+alwaysApply: true
+---
+
+# Tailwind CSS Guidelines
+
+## Atomic CSS Approach
+- **Prefer atomic CSS over semantic class names** for better maintainability and consistency
+- Use individual utility classes instead of creating custom semantic classes
+- Combine utilities to create complex layouts and designs
+- Leverage Tailwind's utility-first approach for maximum flexibility
+- Avoid creating custom CSS classes unless absolutely necessary
+
+## Utility-First Approach
+- Use Tailwind utility classes instead of custom CSS when possible
+- Leverage the existing design system defined in `tailwind.config.ts`
+- Use responsive prefixes (`sm:`, `md:`, `lg:`, `xl:`) for responsive design
+- Combine utilities to create complex layouts and designs
+- Use arbitrary values (`w-[200px]`) sparingly and document the reasoning
+
+## Design System Usage
+- Use predefined colors from the theme configuration
+- Follow the established spacing scale and typography system
+- Use the custom breakpoints defined in the configuration
+- Leverage the custom utilities and components provided
+- Maintain consistency with the existing design patterns
+
+## Styling Best Practices
+- **Avoid `<style>` blocks in components** - use Tailwind utilities instead
+- Use scoped styles only when Tailwind utilities are insufficient
+- Prefer utility classes over custom CSS in 99% of cases
+- Use CSS custom properties for dynamic values that need to change
+- Follow the existing naming conventions for custom classes
+
+## Custom Styling
+- Create custom utilities in `tailwind.config.ts` for repeated patterns
+- Use CSS custom properties for dynamic values that need to change
+- Implement component-specific styles using scoped CSS only when necessary
+- Follow the existing naming conventions for custom classes
+- Document any custom utilities or components created
+
+## Code Organization
+- Maintain consistent naming conventions for custom utilities

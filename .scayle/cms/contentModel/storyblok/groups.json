@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Content",
+    "id": 77351512797694,
+    "uuid": "ef9dcdb3-7565-4858-b458-4d8df1c7f47d",
+    "parent_id": null,
+    "parent_uuid": null
+  },
+  {
+    "name": "Layout",
+    "id": 77355317993983,
+    "uuid": "f10ab040-8c51-44b7-93b7-2bc8c0e197ca",
+    "parent_id": null,
+    "parent_uuid": null
+  }
+]

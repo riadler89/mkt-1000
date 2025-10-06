@@ -1,0 +1,21 @@
+{
+  "name": "@scayle/storefront-application-artillery",
+  "private": true,
+  "author": "SCAYLE Commerce Engine",
+  "description": "Internal load performance test suite for the SCAYLE Storefront Application.",
+  "version": "1.0.0",
+  "scripts": {
+    "artillery:load-test": "ARTILLERY_DISABLE_TELEMETRY=true artillery run --dotenv=../../.env ./config/load-test.yml",
+    "artillery:stress-test": "ARTILLERY_DISABLE_TELEMETRY=true artillery run --dotenv=../../.env ./config/stress-test.yml"
+  },
+  "dependencies": {
+    "@scayle/storefront-application-playwright": "workspace:*",
+    "artillery": "2.0.24"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.55.0",
+    "@types/node": "22.18.6",
+    "ts-node": "10.9.2",
+    "typescript": "5.9.2"
+  }
+}

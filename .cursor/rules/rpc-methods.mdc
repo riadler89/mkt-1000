@@ -1,0 +1,42 @@
+---
+description: RPC method implementation and documentation standards
+globs: ["**/rpcMethods/**/*", "**/server/**/*"]
+alwaysApply: false
+---
+
+# RPC Methods Rules
+
+## RPC Method Structure
+- Use the `defineRpcHandler` utility from `@scayle/storefront-nuxt` for all RPC methods
+- Implement the `RpcHandler` interface with proper TypeScript typing
+- Place RPC methods in the `rpcMethods/` directory
+- Export RPC methods from `rpcMethods/index.ts` for proper registration
+- Use descriptive function names that clearly indicate the RPC method's purpose
+
+## RPC Method Implementation
+- Always provide proper JSDoc comments explaining the RPC method's purpose
+- Use explicit parameter and return type definitions
+- Handle errors gracefully and return appropriate error responses
+- Use the `RpcContext` parameter to access shop configuration, SAPI client, and cache utilities
+- Implement proper logging for debugging and monitoring purposes
+
+## RPC Method Naming and Documentation
+- Use camelCase for RPC method names (e.g., `getProductById`, `subscribeToNewsletter`)
+- Provide comprehensive JSDoc documentation for each RPC method
+- Include parameter descriptions and return value documentation
+- Document any side effects or external API calls
+- Follow the existing patterns established in the codebase
+
+## RPC Method Best Practices
+- Keep RPC methods focused on a single responsibility
+- Use the provided context object for all external dependencies
+- Implement proper error handling with meaningful error messages
+- Consider caching strategies for frequently accessed data
+- Test RPC methods thoroughly with appropriate test cases
+
+## Code Organization
+- Avoid barrel imports for RPC method utilities
+- Import RPC methods and utilities directly from their source files
+- Use explicit imports to improve tree-shaking and bundle optimization
+- Group RPC-related utilities in appropriate directories
+- Maintain consistent naming conventions for RPC helpers

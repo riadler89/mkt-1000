@@ -1,0 +1,35 @@
+type FormatType = Record<
+  string,
+  { placeholder: string; mask: string | string[] }
+>
+
+export const phoneNumberFormats: FormatType = {
+  de_DE: { mask: '+## #### ######', placeholder: '+49 **** ******' },
+  de_AT: { mask: '+## ## ### ## ##', placeholder: '+41 ** *** ** **' },
+  de_CH: { mask: '+## # ### ## ##', placeholder: '+43 * *** ** **' },
+  fr_CH: { mask: '+## ## ########', placeholder: '+31 ** ********' },
+  fr_BE: { mask: '+## ### ## ##', placeholder: '+32 *** ** **' },
+  nl_BE: { mask: '+## ### ## ##', placeholder: '+32 *** ** **' },
+  nl_NL: { mask: '+## ## ########', placeholder: '+31 ** ********' },
+  bg_BG: { mask: '+### # ### ####', placeholder: '+359 2 *** ****' },
+  cs_CZ: { mask: '+### ### ### ###', placeholder: '+420 *** *** ***' },
+  da_DK: { mask: '+## ## ## ## ##', placeholder: '+45 ** ** ** **' },
+  et_EE: { mask: '+### ### ### ##', placeholder: '+372 *** *** **' },
+  fi_FI: { mask: '+### ## ### ####', placeholder: '+358 ** *** ****' },
+  fr_FR: { mask: '+## # ## ## ## ##', placeholder: '+33 * ** ** ** **' },
+  el_GR: { mask: '+## ### ### ####', placeholder: '+30 *** *** ****' },
+  hu_HU: { mask: '+## ## ### ###', placeholder: '+36 ** *** ***' },
+  it_IT: { mask: '+## ### #######', placeholder: '+39 *** *******' },
+  lv_LV: { mask: '+### ### ### ##', placeholder: '+371 *** *** **' },
+  lt_LT: { mask: '+### ### ### ##', placeholder: '+370 *** *** **' },
+  pl_PL: { mask: '+## ### ### ###', placeholder: '+48 *** *** ***' },
+  pt_PT: { mask: '+### ### ### ###', placeholder: '+351 *** *** ***' },
+  ro_RO: { mask: '+## ### ### ###', placeholder: '+40 *** *** ***' },
+  sk_SK: { mask: '+### ### ### ###', placeholder: '+421 *** *** ***' },
+  sl_SI: { mask: '+### ## ### ###', placeholder: '+386 ** *** ***' },
+  es_ES: { mask: '+## ### ### ###', placeholder: '+34 *** *** ***' },
+  sv_SE: { mask: '+## ## ### ## ##', placeholder: '+46 ** *** ** **' },
+  nb_NO: { mask: '+## ## ### ###', placeholder: '+47 ** *** ***' },
+  tr_TR: { mask: '+## ### ### ## ##', placeholder: '+90 *** *** ** **' },
+  en_US: { mask: '+# ### ### ####', placeholder: '+1 *** *** ****' },
+}

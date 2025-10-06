@@ -1,0 +1,35 @@
+---
+description: i18n guidelines for translation key structure and usage
+globs: ["**/i18n/**/*", "**/*.vue", "**/*.ts"]
+alwaysApply: false
+---
+
+# Translation Guidelines
+
+## Translation Key Structure
+- Use snake_case for all translation keys (e.g., `product_details.add_to_cart`)
+- Follow the pattern: `section.element.action` or `component.feature.action`
+- Use descriptive, non-abbreviated key names for clarity
+- Group related translations under logical namespaces (e.g., `basket.checkout.confirm`)
+- Place common/shared translations in the `global` namespace
+
+## Translation File Organization
+- Store translations in `i18n/locales/` directory
+- Use locale-specific file names (e.g., `en_US.json`, `de_DE.json`)
+- Organize keys hierarchically using dot notation
+- Group error messages under dedicated `error` objects with specific error identifiers
+- Maintain consistent structure across all locale files
+
+## Using Translations in Components
+- Prefer using translations in the `<template>` section over `<script>`
+- Always use full translation keys directly (e.g., `$t('product_details.add_to_cart')`)
+- Never use string interpolation or concatenation for translation keys
+- Use placeholders for dynamic content: `$t('order.confirmation', { orderNumber: '12345' })`
+- Implement proper pluralization using the `|` separator: `no items | one item | {count} items`
+
+## Translation Best Practices
+- Avoid storing translation keys in variables unless absolutely necessary
+- Use descriptive placeholder names in camelCase for dynamic content
+- Always define all plural forms (no items, one item, many items)
+- Reuse common translations across components when contextually appropriate
+- Create context-specific keys when the same text needs different translations

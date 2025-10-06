@@ -1,0 +1,602 @@
+{
+  "global": {
+    "sold_out": "Wyprzedane",
+    "sold_out_long": "Produkt aktualnie wyprzedany.",
+    "sign_up": "Zarejestruj się",
+    "sign_in": "Zaloguj się",
+    "sign_out": "Wyloguj się",
+    "product_recommendation": "Zalecane połączenia",
+    "seconds": "sekunda | sekundy",
+    "minutes": "minuta | minuty",
+    "hours": "godzina | godziny",
+    "days": "dzień | dni",
+    "back": "Powrót",
+    "continue_shopping": "Kontynuuj zakupy",
+    "cancel": "Anuluj",
+    "payment_key": {
+      "default": "Karta płatniczs",
+      "accounting": "Płatność na fakturę",
+      "paypal": "PayPal",
+      "klarna_paylater": "Klarna Pay Later",
+      "klarna_paynow": "Klarna Pay Now",
+      "klarna_installments": "Klarna Installments"
+    },
+    "carrier_key": {
+      "DEFAULT": "UPS"
+    },
+    "back_to_shop": "Powrót do sklepu",
+    "to_shop": "Do sklepu",
+    "close": "Zamknij",
+    "including_vat": "w tym VAT.",
+    "excluding_vat": "bez VAT.",
+    "save": "Zapisz",
+    "search": "Szukaj",
+    "quantity": "Ilość",
+    "scroll_to_top_label": "Przewiń do góry",
+    "ordinal_suffix": "th | st | nd | rd"
+  },
+  "notification": {
+    "confirm": "OK",
+    "view": "Widok"
+  },
+  "promotion": {
+    "deal": "Okazja",
+    "free_label": "Za darmo",
+    "condition": "Warunek"
+  },
+  "promotion_progress_wrapper": {
+    "remaining_minimum_order_value": "Odblokuj swoją ofertę! Wydaj {amount} więcej, aby aktywować tę promocję.",
+    "fulfilled_promotion_condition": "Udało Ci się odblokować ofertę specjalną! Dodaj dostępne produkty do koszyka, aby cieszyć się korzyściami.",
+    "partial_savings": "Świetna robota! Odblokowałeś ofertę i zaoszczędziłeś {amount}. Kontynuuj zakupy, aby odblokować jeszcze więcej.",
+    "full_savings": "Świetna robota! Odblokowałeś pełną ofertę i zaoszczędziłeś {amount}.",
+    "free_gift_unlocked": "Świetna robota! Odblokowałeś darmowy prezent.",
+    "free_gift": "Darmowy prezent",
+    "combo_deal_unlocked": "Świetna robota! Odblokowałeś pełną ofertę i zapisałeś {amount}.",
+    "combo_deal": "Odblokuj swoją ofertę! Dodaj kwalifikujące się produkty do koszyka, aby skorzystać z oferty."
+  },
+  "promotion_slide_in": {
+    "open_button": {
+      "no_active_promotions_title": "Twoje oferty",
+      "active_promotions_title": "Twoje oferty - Aktywne promocje: {total}"
+    },
+    "headline": "Twoje oferty",
+    "subline": "Znajdź przecenione produkty, klikając dowolną promocję. Odkryj stale zmieniające się oferty na wybrane produkty.",
+    "active_promotions": "Aktywne promocje: {total}",
+    "no_active_promotions": "Brak aktywnych promocji",
+    "no_active_subline": "Obecnie nie masz aktywnych promocji. Sprawdź później nowe oferty i oferty specjalne!"
+  },
+  "shop_selector": {
+    "aria_label": "Zmień sklep, bieżący sklep: {selectedCountry}, {selectedLanguage}",
+    "flyout_title": "Język i kraj",
+    "choose_language": "Wybierz swój język",
+    "choose_country": "Wybierz swój kraj",
+    "close_flyout": "Zamknij okno wyboru sklepu"
+  },
+  "validation": {
+    "email": "Wprowadź prawidłowy adres e-mail.",
+    "password": "Twoje hasło {field} musi zawierać co najmniej jeden znak specjalny, wielką literę, małą literę i cyfrę.",
+    "required": "Pole {field} jest wymagane.",
+    "same_as": "Pole {field} musi być takie samo jak pole {otherField}.",
+    "max_length": "{field} musi mieć wartość {max} lub mniejszą.",
+    "min_length": "{field} musi mieć co najmniej {min} znaków.",
+    "date": "{field} musi być prawidłową datą.",
+    "name": "{field} nie jest poprawnie sformatowany.",
+    "past_date": "{field} nie może mieć daty, która jest w przyszłości."
+  },
+  "form_fields": {
+    "first_name": "Imię",
+    "last_name": "Nazwisko",
+    "email": "Adres e-mail",
+    "old_password": "Aktualne hasło",
+    "new_password": "Nowe hasło",
+    "password": "Hasło",
+    "gender": "Płeć",
+    "gender_options": {
+      "male": "Mężczyzna",
+      "female": "Kobieta",
+      "diverse": "Inne",
+      "none": "Wolę nie podawać"
+    },
+    "birth_date": "Data urodzenia"
+  },
+  "error": {
+    "unknown_error_title": "Coś poszło nie tak",
+    "page_not_found_title": "Strona nie została znaleziona",
+    "page_not_found_message": "Przepraszamy, strona, której szukasz, nie istnieje lub została przeniesiona.",
+    "error_code_label": "Kod błędu:",
+    "unknown_error_message": "Twoje żądanie nie mogło zostać przetworzone. Spróbuj ponownie później."
+  },
+  "badge_labels": {
+    "new": "Nowość",
+    "already_in_basket": "Już w koszyku"
+  },
+  "navigation": {
+    "find_a_store": "Znajdź sklep",
+    "wishlist": "Lista życzeń | Lista życzeń, {count} produkt | Lista życzeń, {count} produktów",
+    "a11ly": {
+      "side_navigation": "Otwórz nawigację boczną"
+    }
+  },
+  "checkout_page": {
+    "title": "Kasa"
+  },
+  "search_page": {
+    "title": "Produkty dla \"{term}\"",
+    "meta": {
+      "title": "Produkty dla \"{term}\""
+    }
+  },
+  "show_all_results_link": {
+    "open_on_search_page": "Zobacz wszystkie wyniki {searchTerm}"
+  },
+  "product_suggestion_list": {
+    "title": "Produkty"
+  },
+  "category_suggestion_list": {
+    "title": "Kategorie"
+  },
+  "navigation_item_suggestion_list": {
+    "title": "Strony"
+  },
+  "search_input": {
+    "placeholder": "Wyszukaj produkt, kategorię lub markę"
+  },
+  "wishlist_page": {
+    "meta": {
+      "title": "Twoja lista życzeń",
+      "description": "Zapisz swoje ulubione produkty i śledź swoje must-haves."
+    },
+    "title": "Lista życzeń",
+    "empty_wishlist_title": "Nie masz żadnych pozycji na liście życzeń.",
+    "empty_wishlist_description": "Kupuj nasze najnowsze produkty lub zaloguj się, aby zobaczyć zapisaną listę życzeń."
+  },
+  "wishlist_toggle": {
+    "remove_from_wishlist": "Usuń z listy życzeń",
+    "add_to_wishlist": "Dodaj do listy życzeń"
+  },
+  "basket_page": {
+    "title": "Koszyk",
+    "a11y": {
+      "title": "Koszyk | Koszyk , {count} produkt | Basket, {count} produktów"
+    },
+    "empty_basket_title": "Twój koszyk jest pusty.",
+    "empty_basket_description": "Twoje produkty pojawią się, gdy tylko dodasz je do koszyka.",
+    "meta": {
+      "title": "Koszyk",
+      "description": "Przejrzyj produkty w koszyku i łatwo przejdź do kasy. Bezpieczne i bezproblemowe zakupy na {shopName}."
+    }
+  },
+  "basket": {
+    "go_to_checkout": "Przejdź do kasy",
+    "available_products": "Dostępne produkty",
+    "unavailable_products": "Niedostępne produkty"
+  },
+  "basket_popover_items": {
+    "no_items_info": "Nie masz żadnych produktów w koszyku."
+  },
+  "basket_popover_actions": {
+    "go_to_basket": "Przejdź do koszyka"
+  },
+  "basket_summary": {
+    "delivery_fees": "* Opłaty za dostawę zostaną określone podczas płatności po wybraniu preferowanej opcji dostawy.",
+    "total": "Suma",
+    "subtotal": "Suma częściowa",
+    "you_pay": "Płacisz",
+    "discount": "Rabaty",
+    "delivery": "Dostawa"
+  },
+  "basket_summary_reduction": {
+    "sale": "Wyprzedaż",
+    "voucher": "Kod rabatowy"
+  },
+  "add_to_basket": {
+    "add_to_basket": "Dodaj do koszyka",
+    "product_name_fallback": "Produkt",
+    "notification": {
+      "select_size": "Wybierz rozmiar przed dodaniem do koszyka",
+      "add_to_basket_success": "Produkt {productName} został dodany do Twojego koszyka",
+      "add_to_basket_error": "Nie można dodać produktu {productName} do Twojego koszyka",
+      "add_to_basket_variant_out_of_stock_error": "Ten rozmiar jest obecnie niedostępny",
+      "add_to_basket_max_basket_items_error": "Ups! Osiągnięto maksymalną dozwoloną liczbę pozycji w koszyku.",
+      "add_subscription_to_basket_success": "{productName} {interval} Subskrypcja została dodana do Twojego koszyka",
+      "add_with_reduced_quantity_error": "Przepraszamy, nie ma już dostępnych produktów w tym rozmiarze. Wszystkie dostępne produkty zostały już dodane do Twojego koszyka."
+    }
+  },
+  "basket_card": {
+    "remove_from_basket_confirmation": "Czy na pewno chcesz usunąć ten produkt?",
+    "confirm_removal": "Usuń produkt"
+  },
+  "password_input": {
+    "hide": "Ukryj hasło",
+    "show": "Pokaż hasło"
+  },
+  "user_navigation_item": {
+    "greeting": "Witaj {firstName}",
+    "a11y": {
+      "title": "Moje konto"
+    },
+    "menu_items": {
+      "subscriptions": "Twoje subskrypcje",
+      "orders": "Twoje zamówienia",
+      "profile": "Ustawienia konta"
+    }
+  },
+  "profile_account_information": {
+    "title": "Informacje o koncie",
+    "customer_number": "Numer klienta:",
+    "email": "Zarejestrowany adres e-mail:",
+    "disclaimer": "Zmiany wiadomości e-mail nie są obsługiwane. Jeśli potrzebujesz pomocy, skontaktuj się z pomocą techniczną."
+  },
+  "profile_personal_information": {
+    "title": "Dane osobowe",
+    "description": "Zaktualizuj swoje dane osobowe, aby Twoje konto było aktualne.",
+    "success_message": "Twoje dane zostały pomyślnie zaktualizowane.",
+    "error_message": "Nie udało się zapisać informacji. Spróbuj ponownie."
+  },
+  "profile_password_management": {
+    "title": "Zarządzanie hasłami",
+    "description": "Dbaj o bezpieczeństwo swojego konta, regularnie aktualizując hasło.",
+    "idp_description": "Twoje konto jest zabezpieczone przez zewnętrznego dostawcę usług logowania, więc zmiana hasła tutaj nie jest konieczna. Aby zaktualizować hasło, przejdź do ustawień dostawcy logowania.",
+    "success_message": "Twoje hasło zostało pomyślnie zaktualizowane.",
+    "error": {
+      "400_bad_request": "Twoje żądanie nie mogło zostać przetworzone, spróbuj ponownie.",
+      "401_unauthorized": "Twoje żądanie nie mogło zostać przetworzone, spróbuj ponownie.",
+      "403_forbidden": "Twoje hasło nie mogło zostać zaktualizowane. Sprawdź swoje aktualne hasło i spróbuj ponownie."
+    }
+  },
+  "account_page": {
+    "title": "Twoje konto",
+    "meta": {
+      "title": "Twoje konto",
+      "description": "Zarządzaj swoim profilem, zamówieniami i subskrypcjami w jednym miejscu."
+    }
+  },
+  "account_tabs": {
+    "orders": "Zamówienia",
+    "profile": "Profil",
+    "subscriptions": "Subskrypcje"
+  },
+  "profile_page": {
+    "title": "Zarządzaj swoim kontem",
+    "meta": {
+      "title": "Ustawienia konta",
+      "description": "Zaktualizuj swoje dane osobowe, adres e-mail i hasło tutaj."
+    },
+    "greeting": "Witaj, {firstName}!",
+    "description": "Zarządzaj swoimi danymi osobowymi i dbaj o bezpieczeństwo swojego konta."
+  },
+  "order_card": {
+    "order_date": "Data zamówienia",
+    "items": "Produkty",
+    "title": "Zamówienie #{id}",
+    "go_to_order": "Wyświetl zamówienie {orderNumber}"
+  },
+  "orders_page": {
+    "title": "Twoje zamówienia",
+    "meta": {
+      "title": "Twoje zamówienia",
+      "description": "Śledź swoje przeszłe i bieżące zamówienia z aktualizacjami statusu."
+    }
+  },
+  "order_list": {
+    "no_orders": {
+      "title": "Nie masz jeszcze żadnych zamówień.",
+      "description": "Gdy dokonasz zakupu, szczegóły zamówienia pojawią się tutaj."
+    }
+  },
+  "order_detail_page": {
+    "title": "Zamówienie #{id}",
+    "meta": {
+      "title": "Zamówienie #{id}",
+      "description": "Zobacz szczegóły i status swojego zamówienia #{id}."
+    }
+  },
+  "order_information": {
+    "order_details": {
+      "title": "Szczegóły zamówienia",
+      "order_date": "Data zamówienia",
+      "customer_id": "Numer klienta",
+      "order_number": "Numer zamówienia",
+      "estimated_delivery_date": "Przweidywana dostawa",
+      "delivered_by": "Wysyłka z",
+      "order_number_value": "Zamówienie #{orderNumber}"
+    },
+    "payment_details": {
+      "title": "Szczegóły płatności",
+      "payment_method": "Metoda płatności"
+    },
+    "address_details": {
+      "delivery_and_billing_address": "Adres dostawy i adres rozliczeniowy",
+      "delivery_address": "Adres dostawy",
+      "billing_address": "Adres rozliczeniowy"
+    }
+  },
+  "order_detail_payment_summary": {
+    "total": "Suma",
+    "subtotal": "Suma częściowa",
+    "shipping_costs": "Wysyłka"
+  },
+  "product_detail_page": {
+    "meta": {
+      "description": "Kupuj online {productName} w {shopName}. Odkryj szeroki wybór innych markowych produktów."
+    }
+  },
+  "variant_picker": {
+    "select_size": "Wybierz rozmiar",
+    "option": {
+      "select_option": "Wybierz rozmiar {option}"
+    }
+  },
+  "sibling_selection": {
+    "sibling_error": "Błąd: Ten atrybut nie jest ustawiony!",
+    "selected": "Wybrane",
+    "unselected": "Niewybrane",
+    "a11ly": {
+      "alt_text": "{selected}, {alt}",
+      "sold_out_alt_text": "{selected}, {alt} (Wyprzedane)"
+    }
+  },
+  "product_promotion_selection_modal": {
+    "details": "Szczegóły"
+  },
+  "product_details": {
+    "information": {
+      "fit_size": "Dopasowanie i rozmiar",
+      "extras": "Dodatki",
+      "design": "Design"
+    },
+    "shipping_return_heading": {
+      "title": "Wysyłka i zwrot",
+      "general_info": "Opłata pocztowa za wysyłkę i zwrot artykułów, a także koszty opakowania zostaną pokryte przez SCAYLE. Zamówienia obejmujące wiele produktów mogą skutkować częściową dostawą.",
+      "dhl_headline": "Standardowa wysyłka DHL - 0,00 PLN",
+      "dhl_paragraph": "Natychmiast dostępne produkty są zazwyczaj dostarczane przez DHL w ciągu 1-3 dni roboczych.",
+      "hermes_headline": "Hermes - 0,00 PLN",
+      "hermes_paragraph": "Natychmiast dostępne produkty są zazwyczaj dostarczane przez Hermes w ciągu 1-3 dni roboczych.",
+      "return_information": "Jeśli w przesyłce brakuje etykiety zwrotnej, możesz w dowolnym momencie poprosić o nową etykietę w naszym dziale obsługi klienta."
+    }
+  },
+  "price": {
+    "starting_from": "od",
+    "30_day_best_price": "Najlepsza cena w ciągu 30 dni:"
+  },
+  "product_list_page": {
+    "meta": {
+      "description": "Kupuj {category} w {shopName}. Odkryj szeroką gamę prudktów w kategorii {category}"
+    }
+  },
+  "product_list_no_results": {
+    "title": "Brak wyników 🫣",
+    "description": "Niestety nie ma produktów w tej kategorii lub Twoje filtry nie dają wyników.",
+    "reset_filters": "Zresetuj filtry",
+    "back_to_category": "Powrót do {category}"
+  },
+  "sorting_select": {
+    "top_seller": "Zalecenia",
+    "date_newest": "Najnowsze",
+    "price_desc": "Cena malejąco",
+    "price_asc": "Cena rosnąco",
+    "reduction_desc": "Promocja malejąco"
+  },
+  "filter_header": {
+    "title": "Filtruj kategorie",
+    "close": "Zamknij filtry"
+  },
+  "filter_actions": {
+    "show_results_with_count": "Wyświetl produkty: {count}",
+    "show_results": "Wyświetl produkty",
+    "reset_all_filter": "Zresetuj wszystko"
+  },
+  "filter_slide_in_content": {
+    "sorting": "Sortowanie",
+    "only_sale_option": "Pokaż tylko produkty w wyprzedaży",
+    "product_image_view": "Wyświetl"
+  },
+  "filter_group": {
+    "reset": "Zresetuj filtr"
+  },
+  "filter_color_chip": {
+    "select_color": "Wybierz kolor {color}"
+  },
+  "filter": {
+    "notification": {
+      "all_filters_cleared": "Wszystkie filtry zostały wyczyszczone!",
+      "filter_updated": "Twoje filtry zostały pomyślnie zastosowane!",
+      "sort_updated": "Twoje sortowanie zostało pomyślnie zastosowane!",
+      "filter_and_sort_updated": "Twoje sortowanie i filtry zostały pomyślnie zastosowane!"
+    },
+    "show_filter": "Pokaż filtry",
+    "show_filter_and_sorting": "Pokaż filtry i sortowanie"
+  },
+  "order_success_page": {
+    "title": "Przegląd Twojego zamówienia",
+    "meta": {
+      "title": "Zamówienie potwierdzone! Dziękujemy za zakup",
+      "description": "Dziękujemy za Twoje zamówienie! Twój zakup został potwierdzony. Sprawdź swoją wiadomość e-mail, aby poznać szczegóły zamówienia."
+    },
+    "no_order_found": {
+      "title": "Nie można znaleźć informacji o zamówieniu.",
+      "description": "Nie można pobrać szczegółów Twojego zamówienia. Link mógł wygasnąć lub jest nieprawidłowy. Sprawdź pocztę e-mail, aby znaleźć prawidłowy link lub skontaktuj się z pomocą techniczną w celu uzyskania pomocy."
+    },
+    "go_to_order_details": "Szczegóły zamówienia"
+  },
+  "order_success_page_greeting": {
+    "title": "Dziękujemy za Twój zakup!",
+    "email_confirmation": "Potwierdzenie zamówienia zostało wysłane na podany przez Ciebie adres e-mail."
+  },
+  "sign_in_page": {
+    "title": "Witaj! Wracasz do nasz czy to Twój pierwszy raz?",
+    "meta": {
+      "title": "Zaloguj się lub zarejestruj",
+      "description": "Uzyskaj dostęp do swojego konta lub utwórz nowe na {shopName}. Ciesz się bezproblemowymi zakupami dzięki bezpiecznemu logowaniu i spersonalizowanym opcjom."
+    }
+  },
+  "authentication": {
+    "notification": {
+      "success": {
+        "login": "Logowanie powiodło się! Witaj ponownie!",
+        "sign_up": "Twoje konto zostało pomyślnie utworzone!",
+        "forgot_password": "Link do resetowania hasła został wysłany na Twój adres e-mail.",
+        "reset_password": "Twoje hasło zostało pomyślnie zresetowane. Możesz teraz zalogować się przy użyciu nowego hasła.",
+        "guest_login": "Twoje konto zostało utworzone! Możesz teraz kontynuować składanie zamówienia."
+      }
+    }
+  },
+  "location_page": {
+    "title": "Znajdź sklep w pobliżu",
+    "subline": "Wprowadź swój kod pocztowy lub miasto, aby zobaczyć sklepy w pobliżu.",
+    "geolocation": {
+      "error": {
+        "permission_denied": "Użytkownik odrzucił prośbę o geolokalizację",
+        "unknown": "Nie można określić geolokalizacji"
+      }
+    }
+  },
+  "store_variant_availability": {
+    "choose_store": "Wybierz sklep",
+    "change_store": "Zmień sklep",
+    "store_availability_subline": "Wybierz sklep",
+    "store_availability": "Dostępność sklepu"
+  },
+  "store_locator": {
+    "store_information": {
+      "store_closed": "Zamknięty",
+      "store_open": "Otwórz",
+      "remaining_open_time": "zamyka się za {hours}h {minutes}min",
+      "opening_hours": "Godziny otwarcia"
+    },
+    "availability": {
+      "not_available": "Niedostępny",
+      "available": "Dostępny",
+      "low_stock": "Niski stan magazynowy"
+    },
+    "search_store_input_placeholder": "Wprowadź miasto lub kod pocztowy",
+    "detect_location_label": "Wykryj moją lokalizację"
+  },
+  "store_locator_slide_in": {
+    "headline": "Wybierz sklep",
+    "select_store": "Wybierz sklep",
+    "no_results": "Brak wyników"
+  },
+  "subscription_page": {
+    "headline": "Zarządzaj swoimi subskrypcjami",
+    "meta": {
+      "title": "Twoje subskrypcje",
+      "description": "Zarządzaj swoimi aktywnymi i przeszłymi subskrypcjami bez wysiłku."
+    }
+  },
+  "product_subscription": {
+    "subscribe": "Subskrybuj i oszczędzaj",
+    "separation_text": "Lub zaoszczędź jeszcze więcej:",
+    "select_size": "Wybierz rozmiar, aby zobaczyć opcje",
+    "not_eligible_for_subscription_message": "Wybrany rozmiar nie kwalifikuje się do subskrypcji",
+    "add_to_basket": "Subskrybuj dla {interval}"
+  },
+  "subscription": {
+    "subscription": "Subskrypcja",
+    "interval": "Interwał",
+    "follow_up_delivery": "Dostawa uzupełniająca",
+    "day_of_month_selection_caption": "Każdy {dayOfMonth} miesiąca",
+    "term": "Termin"
+  },
+  "image_slider": {
+    "a11ly": {
+      "go_to_previous_image": "Poprzedni obraz",
+      "go_to_next_image": "Następny obraz"
+    }
+  },
+  "slider": {
+    "got_to_previous_item": "Poprzedni",
+    "got_to_next_item": "Następny"
+  },
+  "product_image": {
+    "alt": "{brand}, {productName}, {colors}",
+    "alt_with_image_index": "{alt}, Obraz {index} z {total}"
+  },
+  "country_detection": {
+    "switch_country_prompt": "Wygląda na to, że jesteś w {country}. Który sklep chcesz odwiedzić?",
+    "switch_to_shop": "Przejdź do sklepu {country}",
+    "stay_in_shop": "Zostań w sklepie {country}",
+    "override_codes": {
+      "ZZ": "Międzynarodowy"
+    },
+    "country_with_language": "{country} ({language})"
+  },
+  "footer": {
+    "copyright": "© {currentYear} SCAYLE, Wszelkie prawa zastrzeżone"
+  },
+  "pagination": {
+    "a11y": {
+      "go_to_previous_page": "Przejdź do poprzedniej strony",
+      "go_to_pnext_page": "Przejdź do następnej strony"
+    }
+  },
+  "quantity_input": {
+    "change_value_to": "Zmień ilość na {newQuantity}",
+    "current_value": "Ilość: {currentQuantity}"
+  },
+  "skip_links": {
+    "jump_to_main": "Przejdź do głównej treści",
+    "jump_to_search": "Przejdź do wyszukiwania"
+  },
+  "product_attribute": {
+    "size": "Rozmiar",
+    "color": "Kolor"
+  },
+  "order_status": {
+    "open": "Otwarte",
+    "shipped": "Wysłane",
+    "cancelled": "Anulowane",
+    "confirmed": "Potwierdzone"
+  },
+  "filter_range_slider": {
+    "to": "do",
+    "price": {
+      "maximum": "Maksymalna cena: {price}",
+      "minimum": "Minimalna cena: {price}"
+    },
+    "percentage": {
+      "maximum": "Maksymalna redukcja: {reduction}",
+      "minimum": "Minimalna redukcja: {reduction}"
+    }
+  },
+  "recentlyViewedProductsSlider": {
+    "title": "Ostatnio oglądane"
+  },
+  "basket_promotion_codes": {
+    "headline": "Kody promocyjne",
+    "add_code": "Dodaj",
+    "remove_code": "Usuń {code}",
+    "input_placeholder": "Kod",
+    "input_label": "Kod promocyjny",
+    "add_success": "Twój kod został pomyślnie zastosowany.",
+    "add_error": "Dodanie kodu promocyjnego nie powiodło się.",
+    "remove_error": "Niestety, usunięcie kodu promocyjnego nie powiodło się."
+  },
+  "expressCheckout": {
+    "error": {
+      "deviceNotSupported": "Podane urządzenie nie jest obsługiwane.",
+      "paymentMethodNotAvailable": "Wybrana metoda płatności jest niedostępna.",
+      "pspSessionCreationFailed": "Nie udało się utworzyć sesji dostawcy usług płatniczych.",
+      "failedToFetchSession": "Nie można pobrać prawidłowej sesji od dostawcy usług płatniczych.",
+      "basketNotFound": "Koszyk nie został znaleziony.",
+      "basketInvalid": "Koszyk jest nieprawidłowy.",
+      "failedDependency": "Nie udało się zaktualizować transakcji.",
+      "unknownError": "Wystąpił błąd. Spróbuj ponownie.",
+      "errorShippingAddressValidationFailed": "Weryfikacja adresu wysyłki nie powiodła się.",
+      "outOfConstraints": "Łączna wartość koszyka przekracza dopuszczalną wartość zamówienia."
+    }
+  },
+  "preferred_primary_image_type_toggle": {
+    "default": "Domyślny"
+  },
+  "campaign": {
+    "deal": "Specjalne"
+  },
+  "buy_x_get_y_products": {
+    "headline": "Nie przegap okazji!",
+    "description": "Wybierz teraz swój produkt i ciesz się nagrodą.",
+    "a11y": {
+      "add_item": "Dodaj swój produkt promocyjny {name}"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "extends": "./.nuxt/tsconfig.json",
+  "exclude": ["./testing/**/*"],
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "erasableSyntaxOnly": true,
+    "plugins": [
+      {
+        "name": "@vue/typescript-plugin"
+      }
+    ]
+  }
+}
