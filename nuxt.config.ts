@@ -437,7 +437,7 @@ export default defineNuxtConfig({
   // Storefront CMS Module (local)
   cms: {
     // @ts-expect-error provider here expects either `storyblok`, `contentful` or 'scayle' but the env variable is typed as string
-    provider: process.env.CMS_PROVIDER ?? 'scayle',
+    provider: "storyblok",
   },
 
   // https://nuxt.com/docs/api/nuxt-config#build
